@@ -1,0 +1,15 @@
+#img {
+  background-image: url(../assests/mt-fuji-g9abf672d3_1280.jpg);
+  background-position: center;
+}
+
+#head {
+  font-family: "Aboreto", cursive;
+}
+
+@media (max-width: 768px) {
+    #head{
+        font-size: 2.3rem;
+        font-weight: 700;
+    }
+}

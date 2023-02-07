@@ -1,0 +1,17 @@
+#buttonBackgroundEffect {
+  content: "";
+  /* Made half transparent and half yellow background */
+  background: -webkit-linear-gradient(0deg, transparent 50%, #fcff6d 50%);
+  /* Increased the size to see only one side from both transparent or yellow. */
+  background-size: 400px 40px;
+  transition: 0.8s;
+  color: yellow;
+}
+
+#buttonBackgroundEffect:hover {
+  color: black !important;
+  /* Changed the background position to the part where it is colored ie here weve increased the size to 400px therefore 200px is 50% */
+  background-position: 200px;
+}
+
+/* #buttonBackgroundEffect:hover */
