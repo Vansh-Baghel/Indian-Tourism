@@ -3,15 +3,7 @@ import axios from "axios";
 import { Link } from "react-router-dom";
 import "./TouristCard.css";
 
-const TouristCard = () => {
-  const [datas, setDatas] = useState([{}]);
-  const ENDPOINT_BACKEND = "http://localhost:5000";
-  useEffect(() => {
-    axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`).then((resp) => {
-      setDatas(resp.data.data);
-    });
-  }, []);
-
+const TouristCard = ({datas}) => {
   return (
     <>
       {datas.map((data, index) => (

@@ -3,13 +3,13 @@ import AboutUs from "./AboutUs";
 import Home from "./Home";
 import TouristCard from "./TouristCard";
 
-const DiscoverPage = () => {
+const DiscoverPage = ({datas}) => {
 
   return (
     <div>
       <Home />
       <AboutUs />
-      <TouristCard />
+      <TouristCard datas={datas}/>
     </div>
   );
 };
