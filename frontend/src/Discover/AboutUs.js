@@ -21,8 +21,8 @@ const AboutUs = () => {
         About India
       </div>
       <div className="m-6 text-black mobile:m-0">
-        {info.map((item) => (
-          <div className="px-12 mobile:px-0">
+        {info.map((item, index) => (
+          <div className="px-12 mobile:px-0" key={index}>
             <>
               <h2
                 style={{

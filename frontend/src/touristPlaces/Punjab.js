@@ -1,11 +1,35 @@
-import React from 'react'
+import CarouselComponent from "../components/CarouselComponent";
+import { SwiperSlide } from "swiper/react";
+import React from "react";
+import { useSelector } from "react-redux";
 
 const Punjab = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
+  const tour = useSelector((state) => state.tour.tourInfo);
 
-export default Punjab
+  return (
+    <div style={{ marginTop: "10vh" }}>
+      <div className="text-black">HI</div>
+      <CarouselComponent>
+        {tour[4] !== undefined &&
+          tour[4].products.map((product, index) => (
+            <SwiperSlide
+              key={index}
+              style={{
+                display: "flex",
+                justifyContent: "center",
+                alignContent: "center",
+              }}
+            >
+              <img
+                src={product.image}
+                alt={product.image}
+                style={{ width: "70%" }}
+              />
+            </SwiperSlide>
+          ))}
+      </CarouselComponent>
+    </div>
+  );
+};
+
+export default Punjab;

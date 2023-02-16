@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DiscoverPage from "./Discover/DiscoverPage";
 import Navbar from "./components/Navbar";
@@ -12,36 +11,20 @@ import Andaman from "./touristPlaces/Andaman";
 import Rajasthan from "./touristPlaces/Rajasthan";
 import HimachalPradesh from "./touristPlaces/HimachalPradesh";
 import Punjab from "./touristPlaces/Punjab";
-import { useDispatch } from "react-redux";
-import { tourInfo } from "./store/tour-slice";
 
-function App() {
-  const dispatch = useDispatch();
-  const [datas, setDatas] = useState([{}]);
-
-  const ENDPOINT_BACKEND = "http://localhost:5000";
-  useEffect(() => {
-    axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`).then((resp) => {
-      setDatas(resp.data.data);
-    });
-  }, []);
-
-  useEffect(() => {
-    if (datas.length === 5) {
-      dispatch(tourInfo(datas));
-    }
-  }, [datas]);
+const AppRoutes = ({datas}) => {
+    console.log("AppRouter");
 
   return (
-    <div className="App">
+    <div>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route index element={<DiscoverPage datas={datas}  />} />
+          <Route index element={<DiscoverPage datas={datas} />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/forget-password" element={<ForgetPasswordPage />} />
-          <Route path="kerela" element={<Kerela />} />
+          <Route path="/kerela" element={<Kerela />} />
           <Route path="/andaman-nicobar" element={<Andaman />} />
           <Route path="/rajasthan" element={<Rajasthan />} />
           <Route path="/punjab" element={<Punjab />} />
@@ -50,6 +33,6 @@ function App() {
       </BrowserRouter>
     </div>
   );
-}
+};
 
-export default App;
+export default AppRoutes;
