@@ -1,6 +1,6 @@
 import React from "react";
 
-const AboutSection = ({ tour, isMobile, index, id }) => {
+const AboutSection = ({ tour, isMobile, index }) => {
   const aboutTour = tour[index] !== undefined && tour[index].about;
   const tourStateName = tour[index] !== undefined && tour[index].name;
   const visitTime = tour[index] !== undefined && tour[index].climate;
@@ -8,12 +8,12 @@ const AboutSection = ({ tour, isMobile, index, id }) => {
 
   return (
     <>
-      <div style={{ margin: "1.5rem", color: "black" }} id={id}>
-        <div style={{ padding: "0 3rem" }}>
+      <div style={{ margin: "1.5rem", color: "black" }}>
+        <div style={{ padding: isMobile ? "0 1rem" : "0 3rem" }}>
           <h2
             style={{
-              fontSize: "2.5rem",
-              padding: "1rem",
+              fontSize: isMobile ? "1.5rem" : "2.5rem",
+              padding: isMobile ? "0 0 1rem 0 " : "1rem",
               margin: "1rem",
               textAlign: "start",
               fontFamily: "Kanit",
@@ -32,11 +32,11 @@ const AboutSection = ({ tour, isMobile, index, id }) => {
             {aboutTour}
           </p>
         </div>
-        <div style={{ padding: "0 3rem" }}>
+        <div style={{ padding: isMobile ? "0 1rem" : "0 3rem" }}>
           <h2
             style={{
-              fontSize: "2.5rem",
-              padding: "1rem",
+              fontSize: isMobile ? "1.5rem" : "2.5rem",
+              padding: isMobile ? "1rem 0 1rem 0 " : "1rem",
               margin: "1rem",
               textAlign: "start",
               fontFamily: "Kanit",
@@ -47,9 +47,7 @@ const AboutSection = ({ tour, isMobile, index, id }) => {
           <p
             style={{
               lineHeight: "2.1rem",
-              margin: isMobile
-                ? 0
-                : "0.5rem 1.5rem 3.5rem 3rem",
+              margin: isMobile ? 0 : "0.5rem 1.5rem 3.5rem 3rem",
               fontSize: "1.2rem",
               textAlign: "start",
             }}
@@ -57,11 +55,11 @@ const AboutSection = ({ tour, isMobile, index, id }) => {
             {visitTime}
           </p>
         </div>
-        <div style={{ padding: "0 3rem" }}>
+        <div style={{ padding: isMobile ? "0 1rem" : "0 3rem" }}>
           <h2
             style={{
-              fontSize: "2.5rem",
-              padding: "1rem",
+              fontSize: isMobile ? "1.5rem" : "2.5rem",
+              padding: isMobile ? "1rem 0 1rem 0 " : "1rem",
               margin: "1rem",
               textAlign: "start",
               fontFamily: "Kanit",
@@ -72,9 +70,7 @@ const AboutSection = ({ tour, isMobile, index, id }) => {
           <p
             style={{
               lineHeight: "2.1rem",
-              margin: isMobile
-                ? 0
-                : "0.5rem 1.5rem 3.5rem 3rem",
+              margin: isMobile ? 0 : "0.5rem 1.5rem 3.5rem 3rem",
               fontSize: "1.2rem",
               textAlign: "start",
             }}
