@@ -30,7 +30,7 @@ function App() {
     if (datas.length === 5) {
       dispatch(tourInfo(datas));
     }
-  }, [datas]);
+  }, [datas, dispatch]);
 
   return (
     <div className="App">
@@ -41,7 +41,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
           <Route path="/forget-password" element={<ForgetPasswordPage />} />
-          <Route path="kerela" element={<Kerela />} />
+          <Route path="/kerala" element={<Kerela />} />
           <Route path="/andaman-nicobar" element={<Andaman />} />
           <Route path="/rajasthan" element={<Rajasthan />} />
           <Route path="/punjab" element={<Punjab />} />

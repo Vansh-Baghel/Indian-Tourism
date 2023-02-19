@@ -1,7 +1,6 @@
 [
   {
     "name": "Andaman Nicobar",
-    "indexNum": "1",
     "capital": "Port Blair",
     "about": "The Andaman and Nicobar Islands located in the east of the Indian mainland geographically, float in splendid isolation in the Bay of Bengal. Once a hill range extending from Myanmar to Indonesia, these picturesque undulating islands, islets numbering around 572, are covered with dense rain-fed, damp and evergreen forests and endless varieties of exotic flora and fauna. Most of these islands (about 550) are in the Andaman Group, 28 of which are inhabited. The smaller Nicobars, comprise some 22 main islands (10 inhabited). The Andaman and Nicobars are separated by the Ten Degree Channel which is 150 Kms. wide.",
     "climate": "The islands have a tropical climate. The South-west Monsoon sets in Andaman Nicobar islands towards the end of May and the North-east Monsoon in November. There is no fury of hot summer, no chilling winter, no water clogging or traffic jams. For those who want to enjoy boating, swimming, snorkeling, sightseeing all 12 months is season. North Indians find relief from burning heat and chilling winter if they visit the island from May/June/July and in December/January. Season for nature lovers is May to December when forest is lush green and waterfalls are at their prime. Divers can enjoy the best during December to April and bird watchers during winter times.",
@@ -88,17 +87,17 @@
         "images": "https://live.staticflickr.com/982/40047849690_7a78e1f816_b.jpg",
         "location": "https://www.google.co.in/maps/place/Corbyn+Cove+Beach/@11.6449942,92.7458387,17z/data=!3m1!4b1!4m5!3m4!1s0x308894fccfdb049d:0x60d5e3776ddced65!8m2!3d11.6449942!4d92.7480274"
       },
+
       {
-        "name": "SAMUDRIKA NAVAL MARINE MUSEUM,PORT BLAIR",
-        "info": "This museum is a perfect blend of historical and modern Andaman. A massive blue whale, in its skeletal form, of course, greets you as you enter the museum. There is also an aquarium with fish of all shapes and sizes, from a parrotfish to the rare and venomous species of stonefish and corals.",
-        "images": "https://andamantripadvisor.in/files/social/social_b18e537c1984e883f43807737a639be4.jpg",
-        "location": "https://www.google.co.in/maps/place/Samudrika+Marine+Museum/@11.6718057,92.7263692,15z/data=!4m2!3m1!1s0x0:0xd7352994a1c32fb8?sa=X&ved=2ahUKEwi64_yEu_PlAhWMILcAHYtnBf0Q_BIwC3oECBAQCA"
+        "name": "HAVELOCK ISLAND(SWARAJ DWEEP)",
+        "info": "Havelock Island is part of Ritchie’s Archipelago, in India’s Andaman Islands. It’s known for its dive sites and beaches, like Elephant Beach, with its coral reefs. Crescent-shaped Radhanagar Beach is a popular spot for watching the sunset. On the island’s east side, rocky sections mark long, tree-lined Vijaynagar Beach.",
+        "images": "https://www.tripsavvy.com/thmb/SF7NoKaUPvXKxBkDbmPrC-GSddU=/2121x1414/filters:fill(auto,1)/GettyImages-508601155-592e840f5f9b5859500d0724.jpg",
+        "location": "https://www.google.co.in/maps/place/Swaraj+Dweep/@11.9656084,92.9194242,12z/data=!3m1!4b1!4m5!3m4!1s0x3088d3d85e0fe039:0x25c8aaaa513ef4bf!8m2!3d11.9760503!4d92.9875565"
       }
     ]
   },
   {
     "name": "Punjab",
-    "indexNum": "2",
     "capital": "Chandigarh",
     "about": "Deriving its name from five full-bodied rivers–Sutlej, Beas, Ravi, Jhelum, and Chenab–which flow through its vast plains, Punjab is representative of abundant things. Located on the north-western edge of India, it is one of the smaller albeit prosperous states of the nation, and home to a lively, hospitable and dynamic people. Widely acknowledged as the cradle of civilization, it is a land of ethnic and religious diversity, having borne and shaped a number of religious movements that include Sikhism, Buddhism and Sufism. The Punjabi language, too, finds its origin in the Indo-European linguistic family that includes Persian and Latin.",
     "climate": "The Summer in Punjab actually commences from mid April but the temperature starts rising from February onwards. Rainfall ranges from 250mm to 1000mm. Agriculture in the state highly depends on the rains. The winter season in Punjab is mostly experienced in the month of January, when the temperature falls to 5°C in the night and hovers around 12°C in the day. In the post winter transitional season, hail-storms and brief showers occur which cause damage to the crops. The wind becomes dry by the end of March. The Punjab climate has been a significant factor in shaping the economy of the state.",
@@ -135,7 +134,7 @@
       {
         "name": "JALLIANWALA BAGH",
         "info": "Jallianwala Bagh is a historic garden and ‘memorial of national importance’ in Amritsar, India, preserved in the memory of those wounded and killed in the Jallianwala Bagh Massacre that occurred on the site on the festival of Vaisakhi, 13 April 1919.It houses a museum, gallery and a number of memorial structures.The 7-acre (28,000 m2) garden site of the massacre is located in the vicinity of the Golden Temple complex, the holiest shrine of Sikhism and is managed by the Jallianwala Bagh National Memorial Trust, which was established as per the 'Jallianwala Bagh National Memorial Act, 1951'.",
-        "images": "https://m.telegraphindia.com/unsafe/620x350/smart/static.telegraphindia.com/derivative/THE_TELEGRAPH/1688144/16X9/image93c380cd-0486-4cc0-90e0-865235d0ac34.jpg",
+        "images": "https://static.theprint.in/wp-content/uploads/2018/12/Panorama_of_Jallianwala_Bagh-e1550674910748.jpg",
         "location": "https://www.google.co.in/maps/place/Jallianwala+Bagh/@31.0529259,74.7523128,8z/data=!4m5!3m4!1s0x0:0xcb013976169cb75b!8m2!3d31.6206437!4d74.8801088"
       },
       {
@@ -143,12 +142,23 @@
         "info": "Bhakra Dam is a concrete gravity dam on the Sutlej River in Bilaspur, Himachal Pradesh in northern India. The dam forms the Gobind Sagar reservoir.The dam, located at a gorge near the (now submerged) upstream Bhakra village in Bilaspur district of Himachal Pradesh of height 226 m. The length of the dam (measured from the road above it) is 518.25 m and the width is 9.1 m. Its reservoir known as 'Gobind Sagar' stores up to 9.34 billion cubic metres of water. The 90 km long reservoir created by the Bhakra Dam is spread over an area of 168.35 km2. In terms of quantity of water, it is the third largest reservoir in India, the first being Indira Sagar dam in Madhya Pradesh with capacity of 12.22 billion cu m and second Nagarjunasagar Dam.",
         "images": "https://akm-img-a-in.tosshub.com/indiatoday/images/bodyeditor/201810/dam647_081117121907_1-x404.jpg?9FIZpe39SqXGiX7EIroLsVdcLWjDaUeV",
         "location": "https://www.google.co.in/maps/place/Bhakhra+Dam/@31.4111964,76.4334066,15z/data=!4m5!3m4!1s0x0:0x7cb91e54289880ac!8m2!3d31.4111964!4d76.4334066"
+      },
+      {
+        "name": "SUKHNA LAKE",
+        "info": "Sukhna Lake in Chandigarh, India, is a reservoir at the foothills (Shivalik hills) of the Himalayas. This 3 km² rainfed lake was created in 1958 by damming the Sukhna Choe, a seasonal stream coming down from the Shivalik Hills. Originally the seasonal flow entered the lake directly causing heavy siltation. To check the inflow of silt, 25.42 km² of land was acquired in the catchment area and put under vegetation. In 1974, the Choe was diverted and made to bypass the lake completely, the lake being fed by three siltation pots, minimising the entry of silt into the lake itself.",
+        "images": "https://www.trawell.in/admin/images/upload/472763834Chandigarh_Sukhna_Lake_Main.jpg",
+        "location": "https://www.google.co.in/maps/place/Sukhna+Lake/@30.742074,76.8039478,14z/data=!3m1!4b1!4m5!3m4!1s0x390fed34138d9147:0x8a7a0db7c410d5a2!8m2!3d30.7421379!4d76.8187557"
+      },
+      {
+        "name": "SHAHPUR KANDI FORT ",
+        "info": "The Shahpur Kandi Fort, named after Shah Jahan, nestles on the banks of the Ravi River in the picturesque foothills of the Himalayas. Located on the outer periphery of Pathankot, it was built in the 16th century, and stands surrounded by outstanding natural beauty. A part of the fort functions as a rest house today.Shahpur Kandi fort is located 7Kms from Pathankot and presently it has been converted into a beautiful rest house. It is named after Shah Jahan and was built by Bhao Singh in 16th Century. It is majestically located on the banks of river Ravi. There are a few small heritage monuments like tombs and a mosque.",
+        "images": "https://assets.traveltriangle.com/blog/wp-content/uploads/2019/09/Nurpur-Fort.jpg",
+        "location": "https://www.google.co.in/maps/place/Shahpurkandi+Fort/@32.3876397,75.6833134,15z/data=!4m2!3m1!1s0x0:0xba3db5cd0bf52e84?sa=X&ved=2ahUKEwjcsKHxufPlAhWq8HMBHYWrCaMQ_BIwE3oECAsQCA"
       }
     ]
   },
   {
     "name": "Rajasthan",
-    "indexNum": "3",
     "capital": "Jaipur",
     "about": "Recognized as the \"Land of Kings\" and having sheer variety of experiences to offer, Rajasthan is the largest state of India located on the northwestern side and is one of India's most popular tourist destinations.\nSteeped in tales of chivalry and romance, also famous for striking desert landscape, massive forts, mesmerizing lakes and fabulous palaces, Rajasthan represents the quintessential India. Also, the crafts and folk arts originated here are world famous.With the legendary cities of Jaipur, Udaipur, Jaisalmer, and Jodhpur, built by the Rajput warriors, and the artisan communities and indigenous tribal, Rajasthan is a unique combination of royal and tribal India. Rajputs ruled the Land of Royalty for a long time and till today they are regarded in very high esteem.",
     "climate": "Summers in Rajasthan last from April to June and are particularly harsh with temperatures rising up to 48°C during the day. That being said, if you do plan to visit Rajasthan in the summer, head to places like Mount Abu, Kumbhalgarh or Ranakpur. The weather here is pleasant and the views offered are breath-taking. For other cities, the weather is optimal in the early evenings for roaming around outside in the early mornings and late evenings, and it is advisable to stay indoors otherwise.Monsoon is a far more pleasant experience, the temperatures tend to drop across the state and the rain showers transform the arid landscape of Rajasthan. July to September is a particularly good time to visit if you wish to avoid the crowds you'd usually find during peak tourist season. Bundi, the lake city of Udaipur and the Keoladeo National Park are picturesque and are a must visit if you plan to travel to Rajasthan during the Monsoon.",
@@ -203,12 +213,6 @@
         "description": "Once a land of kings and warriors, metal in Rajasthan was used to craft weapons. These days however, metal figurines, pillboxes, photo frames and vases are the staple of Rajasthani metal crafts. Vibrant colours and complicated patterns are a unique characteristic of the metal crafts of Rajasthan and they make great decorative pieces for the home. Tourists interested in purchasing these articles can find them with ease as they are available all throughout the state.",
         "image": "http://aitcofficial.org/wp-content/uploads/2017/10/Dokra.jpg",
         "category": "Home-Decor"
-      },
-      {
-        "name": "Carpets And Durries",
-        "description": "Carpets and dhurries were first manufactured in Rajasthan when weavers from Afghanistan were invited to the royal Mughal ateliers in the 17th century AD. Since then, the craft has flourished and these simple rugs have now become one of the state's most famous weaving traditions. The dhurries are usually made by weavers in villages who use looms to create an interesting blend of patterns - mostly geometric, sometimes floral, in a dazzling combination of colours. Make a trip to Bikaner, Jaisalmer and Salawas in Jodhpur to purchase dhurries made of cotton yarn or camel hair. The areas around Tonk, a town that is about 95 km south of Jaipur are worth a visit to purchase namdahs, a type of felted woollen carpet.",
-        "image": "http://www.obeetee.com/img/Banner5.JPG",
-        "category": "Home-Decor"
       }
     ],
     "tourist": [
@@ -227,7 +231,7 @@
       {
         "name": "Jantar Mantar",
         "info": "Now a UNESCO World Heritage Site, Jantar Mantar in Jaipur is considered to be the largest of the five astronomical observatories built by Maharaja Sawai Jai Singh II, the founder of Jaipur. It contains sixteen geometric devices, designed to measure time, track celestial bodies and observe the orbits of the planets around the sun.",
-        "images": "https://cdn1.goibibo.com/t_tg_fs/jaipur-jantar-mantar-148133403933-orijgp.jpg",
+        "images": "https://images.pexels.com/photos/9314222/pexels-photo-9314222.jpeg?auto=compress&cs=tinysrgb&w=600",
         "location": "https://www.google.co.in/maps/place/Amber+Palace/@26.9854865,75.8513454,15z/data=!4m2!3m1!1s0x0:0x6221df6747147e2b?sa=X&ved=2ahUKEwjnp4SljfjlAhVy7XMBHZF7CYwQ_BIwH3oECCkQCA"
       },
       {
@@ -235,12 +239,41 @@
         "info": "Hawa Mahal, literally the Palace of Winds, was built in 1799 by the poet king Sawai Pratap Singh as a summer retreat for him and his family. It also served as a place where the ladies of the royal household could observe everyday life without being seen themselves. This unique five-storey structure is a blend of Hindu and Islamic architecture, and the exterior, with its small latticed windows (called jharokhas), resembles the crown of Lord Krishna. The windows also serve as an air-conditioner of sorts, blowing cool air throughout the palace, making it the perfect retreat during summers.",
         "images": "https://static.toiimg.com/photo/50355399/.jpg",
         "location": "https://www.google.co.in/maps/place/Hawa+Mahal/@26.9239363,75.8267438,15z/data=!4m2!3m1!1s0x0:0x860e5d531eccb20c?sa=X&ved=2ahUKEwiOlby_jfjlAhV_7XMBHZ8cAgoQ_BIwH3oECA0QCA"
+      },
+      {
+        "name": "Albert Hall Museum(Central  Museum)",
+        "info": "The building gets its name from The Victoria and Albert Museum in London, the inspiration for its design. The exquisitely built Albert Hall is housed in the centre of Ram Niwas Garden. Sir Swinton Jacob conceptualised and designed it using styles from the Indo-Sarcenic architecture and the Prince of Wales laid the foundation stone of the building in 1876.",
+        "images": "https://live.staticflickr.com/2845/12542763994_d8b41967a3_b.jpg",
+        "location": "https://www.google.co.in/maps/place/Albert+Hall+Museum/@26.9115755,75.8194875,15z/data=!4m2!3m1!1s0x0:0x5bb4333133c6968?sa=X&ved=2ahUKEwif6p7qjfjlAhXX6nMBHTSzBt8Q_BIwHXoECBQQCA"
+      },
+      {
+        "name": "Jal Mahal",
+        "info": "One of the most wonderful sights in Jaipur is the beautiful Jal Mahal or Lake Palace. The light, sand coloured stone walls and the deep blue of the water make for a wonderful contrast. The palace appears to float in the centre of Man Sagar Lake, where its magnificent exteriors can be enjoyed by tourists.",
+        "images": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Jal_Mahal_in_Man_Sagar_Lake.jpg",
+        "location": "https://www.google.co.in/maps/place/Jal+Mahal/@30.7925977,76.9116041,15z/data=!4m5!3m4!1s0x0:0x8baca857b9f1b33d!8m2!3d30.7925977!4d76.9116041"
+      },
+      {
+        "name": "Chittorgarh Fort",
+        "info": "The Chittor Fort or Chittorgarh is one of the largest forts in India. It is a UNESCO World Heritage Site. The fort was the capital of Mewar and is located in the present-day town of Chittor. It sprawls over a hill 180 m in height spread over an area of 280 ha above the plains of the valley drained by the Berach River.",
+        "images": "https://www.chittorgarh.com/images/chittorgarh_fort.jpg",
+        "location": "https://www.google.co.in/maps/place/Chittorgarh+Fort/@24.8878991,74.6450926,15z/data=!4m5!3m4!1s0x0:0x4ef923088d726382!8m2!3d24.8878991!4d74.6450926"
+      },
+      {
+        "name": "The Ajmer Sharif Dargah",
+        "info": "This is a Sufi shrine which encloses the ‘maqbara’ (grave) of Garib Nawaz, the Sufi saint Khwaja Moinuddin Chisti. Built in the 13th century, the shrine is popular among people of all faiths who flock here to have their prayers answered. ",
+        "images": "https://resources.thomascook.in/images/holidays/sightSeeing/ajmerdargha.jpg",
+        "location": "https://www.google.co.in/maps/place/Khawaja+Gharib+Nawaz/@26.4561878,74.628106,15z/data=!4m5!3m4!1s0x0:0x17da9f02930d903b!8m2!3d26.4561878!4d74.628106"
+      },
+      {
+        "name": "Jaisalmer fort",
+        "info": "Jaisalmer Fort is situated in the city of Jaisalmer, in the Indian state of Rajasthan. It is believed to be one of the very few \"living forts\" in the world (such as Carcassonne, France), as nearly one fourth of the old city's population still resides within the fort.For the better part of its 800-year history, the fort was the city of Jaisalmer. The first settlements outside the fort walls, to accommodate the growing population of Jaisalmer, are said to have come up in the 17th century.",
+        "images": "http://www.rajasthantourplanner.com/blog/wp-content/uploads/2016/08/jaisalmer-fort-1024x654.jpg",
+        "location": "https://www.google.co.in/maps/place/Jaisalmer+fort/@26.9128394,70.9130454,15z/data=!4m2!3m1!1s0x0:0xc75a821a459f586?sa=X&ved=2ahUKEwjbrseGj_jlAhW773MBHaWHAgcQ_BIwJ3oECCQQCA"
       }
     ]
   },
   {
     "name": "Kerala",
-    "indexNum": "4",
     "capital": "Thiruvananthapuram,",
     "about": "Kerala - home to the languid backwaters, long coastlines, sprawling tea gardens, and colourful dance forms, is also famously known as 'God?s Own Country'. Located on the Malabar coast of Southern India, it is a tiny sliver of paradise that is also one of the best tropical tourist destinations one can look for. Whether you want to bask in the sun and sand of the palm tree-lined Kovalam beach or want to take a hike to Munnar hill station, or even if you're going to walk down the bustling streets of Kochi, Kerala has everything on offer to take your pick from!The land of literate and simple citizens, Kerala amuses you with its spectacular dance forms, music and handicrafts. Considered to be one among the ten paradises of the world, Kerala is known for long palm tree beaches, beautiful rivers, pious inland water bodies and a calm, green atmosphere.",
     "climate": "The coastal state of Keralalying on the Southwestern tip of India has commonly been called the tropical paradise of India. Bounded by Arabian Sea at one side and the Western Ghats on the other, the beautiful land with stunning beauty has an equable and tropical climate offering a pleasing atmosphere throughout the entire year. This coastal state has hot and humid climate during April-May and pleasant, cold climate in December-January. Summer extends from the month of April to June when the temperature reaches to a maximum of 33 degrees centigrade. Summer is followed by South West Monsoon that starts pouring in the month of June and continues till September. With the arrival of winter there is certain drop in the temperature and you can feel a slight chill due to the cold wind. Winter in Kerala lasts from from November to January or February.",
@@ -333,12 +366,59 @@
         "info": "The city is marked by influences of Arabs, Dutch, Phoenicians, Portuguese, Chinese and the British city as well as that of the Indian rule of the Chera Dynasty followed by rule of the Feudal Lords. A gaggle of islands interconnected by ferries, this cosmopolitan town has upmarket stores, art galleries and some of the finest heritage accommodations. In a true vintage-meets-future fashion, pubs, restaurants, shopping hubs and futuristic stores crowd Ernakulum, Jew Town and Fort Kochi while palaces, beaches, temples and heritage sites marking their presence too. Kochi is also an important place to see Kathakali and Kalarippayattu performances and annual Biennale Festival.",
         "images": "https://www.holidify.com/images/bgImages/KOCHI.jpg",
         "location": "https://www.google.co.in/maps/place/Kochi,+Kerala/@9.9823428,76.1608472,11z/data=!3m1!4b1!4m5!3m4!1s0x3b080d514abec6bf:0xbd582caa5844192!8m2!3d9.9312328!4d76.2673041"
+      },
+      {
+        "name": "Thekkady",
+        "info": "Home to the country's largest Tiger Reserve- Periyar, Thekkady is a great way to enjoy a jungle vacation.Periyar National Park, being a major attraction, is one place where you can enjoy bamboo rafting in the catchment area of Mullaiperiyar Dam, hiking, and in the midst of the wilderness, shopping! Popular for its good eating joints, you can also enjoy its vast stretches of spice gardens and various adventure sports. You can also enjoy a night trek in the wilderness of Periyar. The early morning ride in the boat within the sanctuary is an extremely awesome experience and you might be able to spot wild elephants, bisons, wild boars, various kinds of birds, etc",
+        "images": "https://static.toiimg.com/photo/56892948/.jpg",
+        "location": "https://www.google.co.in/maps/place/Thekkady,+Kumily,+Kerala/data=!4m2!3m1!1s0x3b06f8812df2a199:0x468af17958c54ae8?sa=X&ved=2ahUKEwiwlMjtnfnlAhVzpOkKHeYdD04Q8gEwJXoECBUQBA"
+      },
+      {
+        "name": "Varkala",
+        "info": "Varkala is a coastal town in the southern part of Kerala known for the unique 15m high 'Northern Cliff' adjacent to the Arabian Sea. It is popular for its hippie culture, shacks on the cliff serving great seafood and playing global music and the samadhi of Kerala's saint Sree Narayana Guru. Varkala is also known for Jardana Swami Temple, also known as Dakshin Kashi.Varkala has some of the best pristine beaches, hills, lakes, forts, lighthouses, natural fisheries and springs - all of this together makes this town a little paradise. ",
+        "images": "https://www.varkkala.com/uploads/slides/2435199045.jpg",
+        "location": "https://www.google.co.in/maps/place/Varkala,+Kerala/data=!4m2!3m1!1s0x3b05ef26d90220fb:0xa3ec40c67d4dd020?sa=X&ved=2ahUKEwiat__AnvnlAhUpzjgGHckOB_wQ8gEwIHoECBYQBA"
+      },
+      {
+        "name": "Poovar",
+        "info": "Poovar is a small rustic town situated 27 kms from Thiruvananthapuram with unspoilt, unexplored golden sand beaches and beautiful backwaters of Kerala.Also known as a fishing village, the tranquil Poovar island lies between the Arabian Sea and the Neyyar River. Hiring a boat, (especially during the sunset)that will take you through the mangrove forest of backwaters is a must-do activity. The boat ride costs around INR 3000- INR 4000. The town has some of the beautiful resorts and hotels that are known for the hospitality they offer.",
+        "images": "https://www.keralatourism.org/images/service-providers/photos/property-3322-Exterior-11040-20180831082544.jpg",
+        "location": "https://www.google.co.in/maps/place/Poovar,+Kerala+695525/@8.3223957,77.0598044,15z/data=!3m1!4b1!4m5!3m4!1s0x3b05a9085a9c7bad:0xae2a78c866e7e46d!8m2!3d8.3177774!4d77.0708759"
+      },
+      {
+        "name": "Kovalam",
+        "info": "Kovalam is an idyllic coastal town located around 13 km from Thiruvananthapuram in Kerala. Famous for its three adjacent crescent-shaped shallow water and low tidal beaches, Kovalam is dotted with resorts and ayurvedic massage centres.Lighthouse beach, Samudra Beach and Hawa beach/Eve's Beach form the highlight of this town. Kovalam essentially means a ‘grove of coconut trees', and the little town is filled with these palms.",
+        "images": "https://www.kovalam.com/files/slides/8838110887.jpg",
+        "location": "https://www.google.co.in/maps/place/Kovalam,+Kerala/data=!4m2!3m1!1s0x3b05a5090a19ec65:0xb67f315bc0b762ac?sa=X&ved=2ahUKEwi284Swn_nlAhXgzTgGHcQ1D_UQ8gEwJHoECBgQBA"
+      },
+      {
+        "name": "Sabarimala",
+        "info": "More than 30 million pilgrims visit the temple in Sabarimala annually, making it the largest in India and second largest in the world, after Hajj Pilgrimage of Mecca in Saudi Arabia. Located inside the Periyar Tiger Reserve, in the Pathanamthitta district of Kerala, Sabarimala is a temple town on the bank of the River Pampa.Named after the mythological character, Sabarimala shelters the famous Ayyapa temple. The temple is also known as Dharma Sashta and is believed to be the son of Shiva and Mohini, the feminine incarnation of Lord Vishnu. ",
+        "images": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201911/PTI11_16_2019_000158B-770x433.jpeg?eFOiXxMDU61sAiFgEzJPjbOtsTtRQPKo",
+        "location": "https://www.google.co.in/maps/place/Sabarimala,+Kerala/data=!4m2!3m1!1s0x3b065b984dd41c11:0x953037d850a3006e?sa=X&ved=2ahUKEwi1uorbn_nlAhVUzTgGHRcCDFcQ8gEwJ3oECBYQBA"
+      },
+      {
+        "name": "Kumarakom",
+        "info": "Located at a distance of 16km from Kottayam in Kerala and located on the banks of Vembanad Lake, Kerala's largest lake, Kumarakom is a cluster of many small man-made islands reclaimed from the lake.Part of the Kuttanad region, Kumarakom along with Alleppey, has beautiful backwater areas and they collectively form the most important tourist centres of Kerala. Known for paddy fields, fishing, a network of backwaters, delicious local cuisine, traditional Kettuvalloms (rice barges) houseboats and luxury and budget resorts. ",
+        "images": "https://media.gettyimages.com/id/1068084450/photo/scenic-landscape-with-kumarakom-lake-resort-kerala-india.jpg?s=612x612&w=0&k=20&c=atU46KSiAPUgYTmgXhVVcyV3RjxJn_0vPdeI0Dy4-5Y=",
+        "location": "https://www.google.co.in/maps/place/Kumarakom,+Kerala/data=!4m2!3m1!1s0x3b0881caaef0a8f7:0xc23075c3529e921?sa=X&ved=2ahUKEwiXmIWboPnlAhVqxzgGHW_sCNsQ8gEwH3oECBwQBA"
+      },
+      {
+        "name": "Kollam",
+        "info": "A treasure trove of natural wonders and historical edifices, Kollam is an enchanting town with backwaters and picturesque landscapes. Located 70kms away from Thiruvananthapuram, Kerala, Kollam is a commercial centre and home to India’s cashew producing industry. Popularly known as Quilon, it is often regarded as the gateway to the backwaters of Kerala.",
+        "images": "https://img.traveltriangle.com/blog/wp-content/uploads/2018/04/Jatayu%E2%80%99s-Earth-Centre-kollam-kb6592.jpg",
+        "location": "https://www.google.co.in/maps/place/Kollam,+Kerala/@8.9040558,76.5250328,12z/data=!3m1!4b1!4m5!3m4!1s0x3b05fc5bdda9c621:0x8bf03195267372f7!8m2!3d8.8932118!4d76.6141396"
+      },
+      {
+        "name": "Trivandrum",
+        "info": "Offering an appealing blend of a strongly rooted heritage and a nostalgic colonial legacy, the city of Trivandrum has an exceptional vibe to it. Despite being the capital of Kerala, the city has, quite astonishingly, managed to keep itself far removed from the ruthless aura that generally surrounds a capital city. Built upon seven hills, this city has long since left the days when it was only used by seafaring explorers behind - today, Trivandrum is a swanky metropolis with a quaint urban charm and plenty of scenic places to visit. Proudly retaining its age-old cultural charm, Trivandrum offers a huge variety of sights including incredible museums, beautifully designed palaces, sacred temples and mesmerizing beaches, making the city one of the best tourist spots in South India.",
+        "images": "https://images.thrillophilia.com/image/upload/s--xqlxdexK--/c_fill,f_auto,fl_strip_profile,h_775,q_auto,w_1600/v1/images/photos/000/037/624/original/trivandrum.jpg.jpg?1458192663",
+        "location": "https://www.google.co.in/maps/place/Thiruvananthapuram,+Kerala/data=!4m2!3m1!1s0x3b05bbb805bbcd47:0x15439fab5c5c81cb?sa=X&ved=2ahUKEwjHvvn_oPnlAhVV4jgGHRluCM4Q8gEwFnoECB0QBA"
       }
     ]
   },
   {
     "name": "Himachal Pradesh",
-    "indexNum": "5",
     "capital": "Shimla",
     "about": "A place of immense beauty and charm, Himachal is endowed with clear and serene lakes, lofty mountains, ancient temples and cheerful people. Home to some of the best tourist destinations like Kullu, Manali, Chamba and Shimla, Himachal is paradise on earth inviting an onslaught of tourists all around the year. The natural beauty of Himachal along with the hills and valleys add peace to your holiday while the pilgrimages make the land divine.Owing to the massive production of apples, Himachal Pradesh is known as the State of apples. The state is known for its eco-friendly environment, picturesque natural scenery, colourful culture, adventure sports, warm and hospitable people and a variety of fairs, festivals and celebrations throughout the year. McLeod Ganj, the abode of the 14th Dalai Lama is another favourite spot a must visit in the traveller's paradise.",
     "climate": "There is a huge variation in the climatic conditions of Himachal Pradesh due to variation in altitude (450–6500 metres). The climate varies from hot and sub-humid tropical (450–900 metres) in the southern low tracts, warm and temperate (900–1800 metres), cool and temperate (1900–2400 metres) and cold glacial and alpine (2400–4800 metres) in the northern and eastern high elevated mountain ranges.\nBy October, nights and mornings are very cold. Snowfall at elevations of nearly 3000 m is about 3 m and lasts from December start to March end. About 4500 m, is perpetual snow.\nThe spring season starts from mid February to mid April. The weather is pleasant and comfortable in the season.",
@@ -386,8 +466,20 @@
       {
         "name": "Manali",
         "info": "Nestled in between the snow-capped slopes of the Pir Panjal and the Dhauladhar ranges, Manali is one of the most popular hill stations in the country. With jaw-dropping views, lush green forests, sprawling meadows carpeted with flowers, gushing blue streams, a perpetual fairy-tale like mist lingering in the air, and a persistent fragrance of pines and freshness -  Manali has been blessed with extraordinary scenic beauty. From museums to temples, from quaint little hippie villages to bustling upscale streets, river adventures to trekking trails, Manali has every reason to be the tourist magnet it is, all year round.Clean roads, swaying eucalyptus trees, endearing little eateries, small kitschy local market places, and cafes which serve delicious local food at unbelievable prices, Old Manali is a serene, tranquil place, whose lingering silence is broken only by the twittering of the birds and the sound of the roaring waters of the Kullu river.",
-        "images": "https://cdn.pixabay.com/photo/2020/02/04/19/02/manali-4819132_960_720.jpg",
+        "images": "https://www.holidify.com/images/bgImages/MANALI.jpg",
         "location": "https://www.google.co.in/maps/place/Manali,+Himachal+Pradesh/@32.2394177,77.1696102,14z/data=!3m1!4b1!4m5!3m4!1s0x39048708163fd03f:0x8129a80ebe5076cd!8m2!3d32.2396325!4d77.1887145"
+      },
+      {
+        "name": "Shimla",
+        "info": "Situated at a height of 2200m, Shimla is the capital and the largest city of Himachal Pradesh in India. Set amidst beautiful hills and mystical woods, Shimla has been a very popular hill-station among Indian families and honeymooners since the last 50 years.\n\nBritish loved this city so much that they made Shimla their summer capital in 1864 and used to rule the sub-continent from here whenever the temperature rose in the nearby plains. Shimla still retains its old world charm with beautiful colonial architecture, pedestrian-friendly Mall Road and beautiful churches.",
+        "images": "https://www.holidify.com/images/bgImages/SHIMLA.jpg",
+        "location": "https://www.google.co.in/maps/place/Shimla,+Himachal+Pradesh/@31.0782147,77.1240016,13z/data=!3m1!4b1!4m5!3m4!1s0x390578e3e35d6e67:0x1f7e7ff6ff9f54b7!8m2!3d31.1048145!4d77.1734033"
+      },
+      {
+        "name": "Mcleodganj",
+        "info": "Mcleodganj is a hill station near Dharamshala, popular among trekkers. Its culture is a beautiful blend of Tibetan with some British influence.Also known as Little Lhasa and famous around the world for being home to the Tibetan spiritual leader Dalai Lama, Mcleod Ganj is a beautiful town situated near upper Dharamsala. Nestled amidst majestic hills and lush greenery, this town is culturally blessed by a prominent Tibetan influence owing to the major settlement of Tibetans here. Mcleodganj has one of the most mesmerising landscapes in the entire state of Himachal Pradesh and attracts a lot of tourists throughout the year. The towns of Dharamsala, Mcleodganj, Bhagsu Nag and Kangra are situated very close to each other and tourists must cover all these destinations while travelling here. Few of the most eminent and religiously significant monasteries in India are located here, including the Namgyal Monastery and Tsuglagkhang, where the spiritual leader Dalai Lama resides. Tourists must also visit the scenic Dal Lake and Triund, which are apt for quiet picnics.",
+        "images": "https://www.holidify.com/images/bgImages/MCLEODGANJ.jpg",
+        "location": "https://www.google.co.in/maps/place/McLeod+Ganj,+Dharamshala,+Himachal+Pradesh/@32.2450192,76.3068294,15z/data=!3m1!4b1!4m5!3m4!1s0x391b56d4e3d36d19:0xa3e8725f0584be76!8m2!3d32.2425758!4d76.3212781"
       },
       {
         "name": "Dalhousie",
@@ -406,6 +498,120 @@
         "info": "A small village in Himachal situated along the banks of the river Parvati, Kasol is a tourist attraction that is rapidly gaining fame as a very popular hub for trekkers, backpackers, and nature lovers. Commonly known as the Amsterdam of India, this quaint little village is resplendent in natural scenic beauty, and is one of the few places in the country that is yet to be ruined by urbanization and commercialization. Situated between the towns of Bhuntar and Manikaran, Kasol might seem like a plain, nondescript village from the outside, but it is one of the best places in the country to just sit back and chill in the lap of nature.With the waters of the Parvati river gurgling along and a stunning view of the snow-capped mountains in the background, taking a stroll along the river is one of the best ways to spend a day in Kasol. With smooth boulders and clean white sand separating the green grass from the frothing sea-green waters of the river, every single bend in the river opens up to a breathtaking panorama of cliffs, pine trees, and gushing waterfalls.",
         "images": "https://www.holidify.com/images/compressed/dest_wiki_6702.jpg",
         "location": "https://www.google.co.in/maps/place/Kasol,+Himachal+Pradesh+175105/@32.0098591,77.312116,17z/data=!3m1!4b1!4m5!3m4!1s0x39045c4474aa31e9:0xf112d2e32b47949d!8m2!3d32.0099986!4d77.3149625"
+      },
+      {
+        "name": "Dharamshala",
+        "info": "Dharamsala is famed as the holy residence of the Dalai Lama and houses the Tibetan monk in exile. Dharamsala is located in Kangra district at a distance of 18km from Kangra City. The city is distinctively separated as upper and lower divisions with different altitudes. The lower division is the Dharamsala town itself whereas the upper division is popularly known as Mcleodganj.This is situated on the upper hilly stretch of land of Kangra Valley which is placed just against the picturesque scene of Dhauladhar ranges. Being a Tibetan hub, Dharamsala is considered to be one of the best places to learn and explore Buddhism and Tibetan Culture.",
+        "images": "https://www.holidify.com/images/bgImages/DHARAMSALA.jpg",
+        "location": "https://www.google.co.in/maps/place/Dharamshala,+Himachal+Pradesh/@32.2167773,76.3016556,14z/data=!3m1!4b1!4m5!3m4!1s0x391b50df65bd7311:0x3e08bdb100c6dc10!8m2!3d32.219042!4d76.3234037"
+      },
+      {
+        "name": "Tirthan Valley",
+        "info": "The land of untouched and mystifying beauty, Tirthan Valley is a destination with a plethora of delights. Lying nearly 3 km from the entrance of Great Himalayan National Park, this place is abundant in adventurous activities and a paradise for nature lovers. 'The great Himalayas with snow covered tops looking over the Tirthan River, this valley is best known for its trout fishing and for surprisingly high influx of foreigners. Magical ambience and lush green paths leading to nearby tiny and quaint hamlets accompanied by amazing weather throughout the year, Tirthan valley is great for those holiday makers who seek adventure as well as peace.",
+        "images": "https://www.holidify.com/images/bgImages/TIRTHAN-VALLEY.jpg",
+        "location": "https://www.google.co.in/maps/place/Tirthan+Valley/@31.6376776,77.3418905,17z/data=!3m1!4b1!4m5!3m4!1s0x3905add9fd04eb17:0xa5d8ce3f5d2f42df!8m2!3d31.6376776!4d77.3440792"
+      },
+      {
+        "name": "Kasauli",
+        "info": "Located on the way from Chandigarh to Shimla, Kasauli is a hilly cantonment town which makes for an ideal peaceful holiday location, away from the rush.Kasauli is a small town in the south-west part of Himachal and is on the relatively lower edges of Himalayas. Nestled amidst beautiful woody forests of pine and cedar trees, Kasauli owes its mystical and serene ambience to the lavish Victorian buildings built by the Britishers who resided here years back. These structures speak volumes of the glorious past of this hill station. A lot of endangered species of fauna are also found in the dense forests in this region. Kasauli is not about particular attractions or activities, but about the serene environment and enchanting calmness that it provides. If you want to just find a good getaway from the hectic life of your city, Kasauli provides the ideal environment to soothe your nerves.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/iuubub_20181011181109.jpg",
+        "location": "https://www.google.co.in/maps/place/Kasauli,+Himachal+Pradesh/@30.8995898,76.9503449,14z/data=!3m1!4b1!4m5!3m4!1s0x390f88e0ddfe0b27:0x2cf1b6ec9befd181!8m2!3d30.90129!4d76.9648753"
+      },
+      {
+        "name": "Bir Billing",
+        "info": "Bir is a small town located in the state of Himachal Pradesh in northern India. Bir Billing is a popular destination located in Joginder Nagar valley known for adventures sports such as paragliding, treks and also as the town for meditation. There is an influence of Tibetan culture due to Tibetan community settlement in this town.Bir is considered as one of the best spots in the world for paragliding. The take-off site is called Billing and the landing site is Bir and the overall altitude change is around 800m.  There are some pretty cafe dotting the town serving some delicious food. People can also go for short hikes, visit the monasteries, take a ride in the nearby Jogindernagar-Pathankot Narrow Gauge train or just spend a day at the tea gardens. The town of Bir is also an important centre of spiritual studies and meditation.",
+        "images": "https://images.pexels.com/photos/9605458/pexels-photo-9605458.jpeg?auto=compress&cs=tinysrgb&w=600",
+        "location": "https://www.google.co.in/maps/place/Bir+Billing+Paragliding/@32.0336832,76.720241,17z/data=!3m1!4b1!4m5!3m4!1s0x3904b8bf6cf4bee3:0x93c650f1243d9dd7!8m2!3d32.0336832!4d76.7224297"
+      },
+      {
+        "name": "Kinnaur",
+        "info": "Kinnaur, also known as \"Land of God\" is about 235 Km from Shimla and is known for its serenity and beauty of the lush green and rocky mountainscape having Satluj, Baspa and Spiti river meandering through it. A brotherly fusion of Hinduism and Buddhism at one place reflects the existence of a culture of a different sort which is well preserved by its people in this era of modernization. Hindus visit Kinnaur to see the famous Kinner Kailash, believed to be the home of Lord Shiva and the Shivaling rocks, the stories of Pandavas and their link with Kinnaur is a great attraction.There are also old Buddhist monasteries and temples in the vicinity which hold special importance and are revered by Buddhists. Apart from religion, Kinnaur also has a vast scope in adventure sports like trekking and skiing. There are about nine known routes for trekking and some which are five days or six-day trips",
+        "images": "https://www.holidify.com/images/bgImages/KINNAUR.jpg",
+        "location": "https://www.google.co.in/maps/place/Kinnaur,+Himachal+Pradesh/@31.5918866,77.8154937,9z/data=!3m1!4b1!4m5!3m4!1s0x390643bef5f84a51:0xddfea72b01d3f354!8m2!3d31.6509576!4d78.4751945"
+      },
+      {
+        "name": "Kufri",
+        "info": "Kufri in Shimla district, Himachal Pradesh is one of the most sought after holiday destinations, and more so for couples, because of its proximity to Shimla and relatively higher altitude which makes it a place with snow all through the winters.Kufri is just about 10 km from Shimla and is quite a retreat if you're in Shimla and snow is something which excites you. While there's not much to see in Kufri as such, but the panoramic views and temples after a bit of trekking are worth the time. Kufri itself is mostly treated as a spot for the tourists visiting Shimla and it is advisable to club sightseeing in Shimla or nearby areas like Chail, Mashobra, Naldehra or Narkanda as well if you intend to visit Kufri. Also, Kufri is a relatively crowded and popular attraction as almost everyone visiting Shimla comes here.",
+        "images": "https://www.holidify.com/images/bgImages/KUFRI.jpg",
+        "location": "https://www.google.co.in/maps/place/Kufri,+Himachal+Pradesh/@31.1003579,77.2589384,15z/data=!3m1!4b1!4m5!3m4!1s0x390583e9fa930c1d:0x557edf73688dd0d5!8m2!3d31.0978583!4d77.2678137"
+      },
+      {
+        "name": "Chamba",
+        "info": "Chamba is a Himalayan town located in Chamba district of Himachal Pradesh. Known for the ancient temples, the caves, and the edifices that speak highly of Indian history, Chamba is famous for the gob-smacking views of the Pir Panjal, Zanskar and Dhauladhar ranges set in the backdrop of a picture-postcard town. This epitome of the Himalayan town is located at an elevation of 996 meters on the banks of river Ravi flanked by Jammu and Kashmir, Lahaul and Kangra.Chamba is popular for its traditional handicrafts and art along with the miniature Pahari paintings - a form of Indian painting that originated from the Himalayan hill kingdoms of North India during the 17th to 19th centuries. It is also the base camp for several treks in the great Himalayan ranges. This, along with the stunning beauty and tranquil environs beckons travellers looking for an offbeat location among the much-popular Himachali towns.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/Pir_Panjal_&_Chamera_Lake_20190210174543.jpg",
+        "location": "https://www.google.co.in/maps/place/Chamba,+Himachal+Pradesh/@32.5473433,76.0962028,13z/data=!3m1!4b1!4m5!3m4!1s0x391cbdcc1d2b79c9:0x4d6719d7059007af!8m2!3d32.5533633!4d76.1258083"
+      },
+      {
+        "name": "Chail",
+        "info": "Chail is a quiet hill station close to Shimla, known for the world's highest cricket ground and the heritage hotel, Chail Palace, in the midst of pine and deodar trees.Surrounded by lush greenery and mesmerizing views from such a great height, known as a hiker's paradise, Chail is bound to give a tourist a memorable travelling experience to a tourist. This place is famous for having the world's highest cricket and polo grounds and has a luxurious resort situated on three hilltops. Once the summer capital of theÊPatialaÊKings, the palace has now been converted into a hotel and a tourist destination. This is the quintessential destination for tourists looking for a calm and relaxed vacation away from the more bustling and crowded tourist destinations in this state. Being the summer capital of the majestic kings of Patiala, the most famous place to visit in Chail is their palace which has now been converted into a heritage hotel. One must also visit the Chail Wildlife Sanctuary and the famous cricket ground.",
+        "images": "https://www.holidify.com/images/bgImages/CHAIL.jpg",
+        "location": "https://www.google.co.in/maps/place/Chail,+Himachal+Pradesh+173217/@30.9685464,77.1758651,14z/data=!3m1!4b1!4m5!3m4!1s0x390f7ff448852819:0x3580141bd7f106e6!8m2!3d30.9676214!4d77.1916497"
+      },
+      {
+        "name": "Mandi",
+        "info": "Packed with a thick green cover of pine and deodar trees, the town of Mandi is situated at the junction of Kullu and Dharamshala. It is often referred to as 'Varanasi of Hills', or 'Choti Kashi' as the town has as many as 81 temples spread across its area.Lying on the banks of River Beas, Mandi also displays some old palaces and temples that can be dated back to the 5th Century AD. Serving as a gateway to some famous valleys such as Kullu, Manali, Spiti and Lahaul, Mandi is must on your north India itinerary which never fails to enchant its visitors. Mandi is also the nearest town to various treks like Prashar lake and Janjheli.",
+        "images": "https://www.holidify.com/images/tooltipImages/MANDI.jpg",
+        "location": "google.co.in/maps/place/Mandi,+Himachal+Pradesh/@31.7094734,76.9232438,14z/data=!3m1!4b1!4m5!3m4!1s0x3904e238c88ea491:0x87e6743a04fb62fe!8m2!3d31.7087153!4d76.9320104"
+      },
+      {
+        "name": "Kullu",
+        "info": "Kullu, a popular tourist destination generally coupled with Manali, is an open valley with panoramic views and majestic hills covered with Deodar and Pine trees.Situated at an altitude of 1230 meters, Kullu is a nature lover's paradise. Abundant with lush greenery, pristine river streams and a wonderful climate, Kullu is known as one of the most popular tourist spots in Himachal Pradesh. Kullu is also popular as a sister town to Manali which is on much higher altitude and provides more scenic views. Typically travellers cover both Kullu and Manali in one trip. Tourists coming to Kullu and Manali can indulge in a lot of adventure sports activities like river rafting, trekking, mountaineering etc. Set in the lap of nature, the picturesque landscape of this small town is mesmerizing. Kullu also has few important temples like the Raghunath Temple and Jagannathi Devi Temple. Apart from temples, the Pandoh Dam and Chandrakhani Pass are also must-visits in this region. Kullu is also used as the base town to reachÊManikaran, Kasol, Malana, Bhunter and Rohtang Pass too.",
+        "images": "https://www.holidify.com/blog/wp-content/uploads/2014/09/286594254_5455f2e097_o.jpg",
+        "location": "https://www.google.co.in/maps/place/Kullu,+Himachal+Pradesh+175101/@31.9545843,77.0937828,14z/data=!3m1!4b1!4m5!3m4!1s0x3904f6a95c673edb:0x40f8c144f79ad609!8m2!3d31.957851!4d77.1094597"
+      },
+      {
+        "name": "Kaza",
+        "info": "Kaza, sitting huddled in the corner of Himachal Pradesh is a tranquil getaway on the plains of the Spiti River. Lapped by majestic mountains covered in snow, meandering and bubbling rivers and streams and picturesque barren landscape with scattered patches of green, Kaza is a dream destination.It is divided in to two parts: old and new Kaza, each accommodating government offices and king's palace respectively. Monasteries, Gompas and other historic wonders add charm to this already magical city. Today, this city is a wonderful blend of modernity and unique ancient culture that will leave you enchanted with its mystery.",
+        "images": "https://www.holidify.com/images/bgImages/KAZA.jpg",
+        "location": "https://www.google.co.in/maps/place/Kaza,+Himachal+Pradesh+172114/@32.2251708,78.0523144,14z/data=!3m1!4b1!4m5!3m4!1s0x3906a374a0af9f8b:0x6ec85005a1175d47!8m2!3d32.2275991!4d78.0709903"
+      },
+      {
+        "name": "Palampur",
+        "info": "Nestled between the majestic Dhauladhar Ranges, Palampur is known for its tea plantations and its excellent quality of tea. Palampur was first noticed by the Englishmen and was soon turned into a bustling town as the centre of trade and commerce. Their presence in this town is beautifully reflected in the Victorian style mansions and castles. The remnants of its glorious past can be seen in the beautiful amalgamation of the beautiful English style buildings and the picturesque landscapes. Palampur is one of the unexplored destinations offer a quaint and serene environment to tourists. Among the tourist attractions here, Tashi Jong Monastery, and the tea gardens should be on the must-visit list for anyone.",
+        "images": "https://www.holidify.com/images/compressed/5199.jpg",
+        "location": "https://www.google.co.in/maps/place/Palampur,+Himachal+Pradesh/@32.1192814,76.5056556,13z/data=!3m1!4b1!4m5!3m4!1s0x3904b3e0d1e63ac9:0x11046afda32dfd59!8m2!3d32.1108599!4d76.5362526"
+      },
+      {
+        "name": "Nahan",
+        "info": "Away from the buzzing crowd of the city, Nahan is a perfect romantic getaway. Lying among the lofty Shivalik range overlooking lush green fields, dirt free roads and clean streets, this small hill station serves as an ideal holiday destination.Nahan has its past spun around many tales and legends. Founded by Raja Karan Prakash in 1621 as a capital, it is believed that this town derives its name from a sage named Nahar who lived at the same site where this town stands today. As per another version, the town gets its name from an incident where the king who was trying to kill a lion was stopped by a saint named Baba Banwari Das who said Nahar meaning 'don't kill'. The quaint town today, is dotted with gardens, temples and a manmade lake. Visit Nahan, a cantonment town of Himachal for an unforgettable experience.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/kangojodi_20180806205221.jpg",
+        "location": "google.co.in/maps/place/Nahan,+Himachal+Pradesh+173001/@30.5600418,77.2758363,14z/data=!3m1!4b1!4m5!3m4!1s0x390f0c0853d80c9b:0xdaf447e96e7ae7c3!8m2!3d30.5599327!4d77.295483"
+      },
+      {
+        "name": "Kangra",
+        "info": "Kangra is a district in Himachal Pradesh with Dharamshala as the administrative headquarters. With might Beas River flowing through the Valley, Kangra is also known for the backdrop of Dhauladar range, ancient temples and endless tea plantations. Repeated mention of the Valley in the holy Hindu texts, present Kangra as 'Devbhumi' or Land of the Gods.Kangra is a district which encompasses Dharamshala and McleodGanj within its boundaries. The beautiful tea plantations are located in Palampur and areas around which lies 36 km away from Kangra city.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_1276735357_20191007124639_20191007124659.png",
+        "location": "https://www.google.co.in/maps/place/Kangra,+Himachal+Pradesh+176001/@32.1029683,76.2551163,14z/data=!3m1!4b1!4m5!3m4!1s0x391b458198590ddf:0xad8e3ff3dfe5b1fe!8m2!3d32.0998031!4d76.2691006"
+      },
+      {
+        "name": "Narkanda",
+        "info": "Situated at a height of 9000 feet, this town attracts tourists for its ethereal natural beauty and its beautiful apple orchards. Surrounded by tropical forests and majestic hills, this is one place that tourists to Himachal Pradesh should not miss. Narkanda also has a lake called the Tannu Jabar Lake which is one of the most important tourist attraction here. There also exists a temple near the lake which is a must visit for all tourists and devotees coming here. Narkanda also has various trekking routes which all adventure-seekers should go for. Narkanda has a beautiful hill called Hatu Nag which one can trek up to. This hill offers a panoramic view of the town below and all adventure lovers travelling to this town should try it. One can also go for skiing during the winters.",
+        "images": "https://www.holidify.com/images/bgImages/NARKANDA.jpg",
+        "location": "https://www.google.co.in/maps/place/Narkand,+Himachal+Pradesh+171213/@31.2587059,77.4544286,16z/data=!3m1!4b1!4m5!3m4!1s0x390591661a142a1d:0x5feef9c405007657!8m2!3d31.2577718!4d77.4601581"
+      },
+      {
+        "name": "Manikaran Sahib",
+        "info": "Located at a distance of 4km from Kasol in the Parvati Valley along the banks of river Parvati in the Kullu District of Himachal Pradesh, Manikaran is known as a famous pilgrimage destination for both Sikhs and Hindus. A good number of temples, Gurudwara Manikaran Sahib and hot springs forms the religious pattern of the place and attract several people.There are three hot springs where one can take a bath, one being inside the Gurudwara itself and the other two being privatised by the guesthouses. Different sections for men and women are made at the bathing place. The water in these springs contains sulphur which ais capable of curing diseases. The hot springs again have religious and spiritual beliefs connected to it. The water is hot enough to prepare food by directly placing the vessels and is served as langar.",
+        "images": "https://www.holidify.com/images/bgImages/MANIKARAN-SAHIB.jpg",
+        "location": "https://www.google.co.in/maps/place/Gurudwara+Manikaran+Sahib/@32.0270448,77.3427227,17z/data=!3m1!4b1!4m5!3m4!1s0x39045ce615555555:0x3a27550ec7c38e2a!8m2!3d32.0270448!4d77.3449114"
+      },
+      {
+        "name": "Solang Valley",
+        "info": "When heading to Manali for a vacation, two absolutely essential destinations in the itinerary are Rohtang and Solang Valley. 14 kilometres to the north west of the main town of Manali, Solang Valley is one of the most popular tourist destinations in Himachal Pradesh. Situated on the way to Rohtang from Manali, every year the valley welcomes tourists in huge numbers. A favourite for adventure enthusiasts, parachuting to paragliding, horse riding to driving mini-open jeeps specially available for tourists of all age groups, Solang Valley has it all.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/shutterstock_633164246_20190904103856_20190904103926.jpg",
+        "location": "https://www.google.co.in/maps/place/Solang+Valley/@32.3174354,77.1513273,17z/data=!3m1!4b1!4m5!3m4!1s0x3904873b67f51935:0x711b3f450dfe5abf!8m2!3d32.3174354!4d77.153516"
+      },
+      {
+        "name": "Beas Kund Trek",
+        "info": "Other than being famous a tourist destination, Manali is also the way to one of the most undertaken treks - the Beas Kund Trek. This trek is a perfect weekend getaway plan which takes you away from the hustle and bustle of the city life. Get a chance to feast your eyes on the outstanding views of Pir Pinjal mountain ranges over the Beas river, let your soul get wooed by the spectacular meadows of Dhundi and Bakarthach and finally, the glacial lake at Beas Kund which is worth all the hiking.",
+        "images": "https://www.holidify.com/images/cmsuploads/compressed/6103594064_86a392d5b5_b_20180813140617.jpg",
+        "location": "https://www.google.co.in/maps/place/Beas+Kund+Trek/@32.3528046,77.1130119,17z/data=!3m1!4b1!4m5!3m4!1s0x39048168b4e9b33b:0x5d36383cf7bef7ea!8m2!3d32.3528046!4d77.1152006"
+      },
+      {
+        "name": "Kheerganga Trek",
+        "info": "Kheer Ganga (3050 meters) lies at the extreme end of Parvati valley and the last inhibited village while trekking to pin valley via Pin-Parvati pass. Kheerganga's panoramic skies and vast greenery are a much-needed delight to the trekker's eyes and especially the tired legs. It is a holy place with a hot water spring, a small temple of Lord Shiva and a bathing tank. It makes a rare combination for any trekker to bath in hot spring water when everything is covered by snow.",
+        "images": "https://www.holidify.com/images/compressed/dest_wiki_6702.jpg",
+        "location": "https://www.google.co.in/maps/place/Kheerganga+Trekking/@31.9929633,77.4864388,17z/data=!3m1!4b1!4m5!3m4!1s0x39044773d4420251:0xf3ca2f9d1ab1a5f9!8m2!3d31.9929633!4d77.4886275"
       }
     ]
   }

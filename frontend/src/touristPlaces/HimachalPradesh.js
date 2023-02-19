@@ -1,33 +1,18 @@
-import CarouselComponent from "../components/CarouselComponent";
-import { SwiperSlide } from "swiper/react";
+import ProductCarousel from "../components/TouristPlaces";
 import React from "react";
+
 import { useSelector } from "react-redux";
+import { useMediaQuery } from "react-responsive";
+import AboutSection from "../components/AboutSection";
 
 const HimachalPradesh = () => {
   const tour = useSelector((state) => state.tour.tourInfo);
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
 
   return (
     <div style={{ marginTop: "10vh" }}>
-      <div className="text-black">HI</div>
-      <CarouselComponent>
-        {tour[3] !== undefined &&
-          tour[3].products.map((product, index) => (
-            <SwiperSlide
-              key={index}
-              style={{
-                display: "flex",
-                justifyContent: "center",
-                alignContent: "center",
-              }}
-            >
-              <img
-                src={product.image}
-                alt={product.image}
-                style={{ width: "70%" }}
-              />
-            </SwiperSlide>
-          ))}
-      </CarouselComponent>
+      <AboutSection tour={tour} isMobile={isMobile} index="3" />
+      <ProductCarousel isMobile={isMobile} tour={tour} index="3"/>
     </div>
   );
 };

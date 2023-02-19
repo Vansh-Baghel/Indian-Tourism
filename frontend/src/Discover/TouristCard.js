@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import ButtonWithEffect from "../components/ButtonWithEffect";
 import "./TouristCard.css";
-const TouristCard = ({datas}) => {
-  
+const TouristCard = ({ datas }) => {
   return (
     <>
       {datas.map((data, index) => (
@@ -55,7 +55,7 @@ const TouristCard = ({datas}) => {
                         data.name && data.name.toLowerCase().replace(" ", "-")
                       }
                     >
-                      <button className="bg-black">Read More</button>
+                      <ButtonWithEffect buttonText="Read More"></ButtonWithEffect>
                     </Link>
                   </div>
                 </div>
