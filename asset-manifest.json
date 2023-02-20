@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Indian-Tourism/static/css/main.a0d1195f.css",
-    "main.js": "/Indian-Tourism/static/js/main.2798893c.js",
+    "main.css": "/Indian-Tourism/static/css/main.c35caa77.css",
+    "main.js": "/Indian-Tourism/static/js/main.e86e9d98.js",
     "static/media/production ID_4120588.mp4": "/Indian-Tourism/static/media/production ID_4120588.91aa6a52fd35bff0a5a9.mp4",
     "static/media/mt-fuji-g9abf672d3_1280.jpg": "/Indian-Tourism/static/media/mt-fuji-g9abf672d3_1280.f5327e1472c18195b4d7.jpg",
     "index.html": "/Indian-Tourism/index.html",
-    "main.a0d1195f.css.map": "/Indian-Tourism/static/css/main.a0d1195f.css.map",
-    "main.2798893c.js.map": "/Indian-Tourism/static/js/main.2798893c.js.map"
+    "main.c35caa77.css.map": "/Indian-Tourism/static/css/main.c35caa77.css.map",
+    "main.e86e9d98.js.map": "/Indian-Tourism/static/js/main.e86e9d98.js.map"
   },
   "entrypoints": [
-    "static/css/main.a0d1195f.css",
-    "static/js/main.2798893c.js"
+    "static/css/main.c35caa77.css",
+    "static/js/main.e86e9d98.js"
   ]
 }
