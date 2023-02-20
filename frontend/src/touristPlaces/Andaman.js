@@ -20,9 +20,9 @@ const Andaman = () => {
   return (
     <div style={{ marginTop: "10vh" }}>
       <TopContent vidLink={prod} overlapHeading={overlapHeading} overlapDescription={overlapDescription} poster={poster}/>
-      <AboutSection tour={tour} isMobile={isMobile} index="0" />
-      <ProductCarousel tour={tour} isMobile={isMobile} index="0" />
-      <TouristPlaces tour={tour} isMobile={isMobile} index="0" />
+      <AboutSection tour={tour} isMobile={isMobile} index="2" />
+      <ProductCarousel tour={tour} isMobile={isMobile} index="2" />
+      <TouristPlaces tour={tour} isMobile={isMobile} index="2" />
       <Footer />
     </div>
   );

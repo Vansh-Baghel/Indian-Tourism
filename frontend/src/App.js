@@ -19,7 +19,7 @@ function App() {
   const dispatch = useDispatch();
   const [datas, setDatas] = useState([{}]);
 
-  const ENDPOINT_BACKEND = "http://localhost:5000";
+  const ENDPOINT_BACKEND = "https://indian-tourism.onrender.com";
   useEffect(() => {
     axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`).then((resp) => {
       setDatas(resp.data.data);

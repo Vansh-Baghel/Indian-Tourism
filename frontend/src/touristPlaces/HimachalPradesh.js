@@ -14,9 +14,9 @@ const HimachalPradesh = () => {
 
   return (
     <div style={{ marginTop: "10vh" }}>
-      <AboutSection tour={tour} isMobile={isMobile} index="3" />{" "}
-      <ProductCarousel tour={tour} isMobile={isMobile} index="3" />
-      <TouristPlaces tour={tour} isMobile={isMobile} index="3" />
+      <AboutSection tour={tour} isMobile={isMobile} index="4" />
+      <ProductCarousel tour={tour} isMobile={isMobile} index="4" />
+      <TouristPlaces tour={tour} isMobile={isMobile} index="4" />
       <Footer />
     </div>
   );

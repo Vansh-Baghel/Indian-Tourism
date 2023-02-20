@@ -15,9 +15,9 @@ const Rajasthan = () => {
   useEffect(() => window.scrollTo(0, 0), []);
   return (
     <div style={{ marginTop: "10vh" }}>
-      <AboutSection tour={tour} isMobile={isMobile} index="1" />{" "}
-      <ProductCarousel tour={tour} isMobile={isMobile} index="1" />
-      <TouristPlaces tour={tour} isMobile={isMobile} index="1" />
+      <AboutSection tour={tour} isMobile={isMobile} index="0" />
+      <ProductCarousel tour={tour} isMobile={isMobile} index="0" />
+      <TouristPlaces tour={tour} isMobile={isMobile} index="0" />
       <Footer />
     </div>
   );

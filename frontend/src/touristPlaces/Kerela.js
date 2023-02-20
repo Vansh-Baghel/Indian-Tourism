@@ -15,9 +15,9 @@ const Kerela = () => {
 
   return (
     <div style={{ marginTop: "10vh" }}>
-      <AboutSection tour={tour} isMobile={isMobile} index="2" />{" "}
-      <ProductCarousel tour={tour} isMobile={isMobile} index="2" />
-      <TouristPlaces tour={tour} isMobile={isMobile} index="2" />
+      <AboutSection tour={tour} isMobile={isMobile} index="1" />
+      <ProductCarousel tour={tour} isMobile={isMobile} index="1" />
+      <TouristPlaces tour={tour} isMobile={isMobile} index="1" />
       <Footer />
     </div>
   );
