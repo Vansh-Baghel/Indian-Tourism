@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Tourist-Website/static/css/main.4968b0f2.css",
-    "main.js": "/Tourist-Website/static/js/main.cb333087.js",
+    "main.js": "/Tourist-Website/static/js/main.9d724ee1.js",
     "static/media/production ID_4120588.mp4": "/Tourist-Website/static/media/production ID_4120588.91aa6a52fd35bff0a5a9.mp4",
     "static/media/mt-fuji-g9abf672d3_1280.jpg": "/Tourist-Website/static/media/mt-fuji-g9abf672d3_1280.f5327e1472c18195b4d7.jpg",
     "index.html": "/Tourist-Website/index.html",
     "main.4968b0f2.css.map": "/Tourist-Website/static/css/main.4968b0f2.css.map",
-    "main.cb333087.js.map": "/Tourist-Website/static/js/main.cb333087.js.map"
+    "main.9d724ee1.js.map": "/Tourist-Website/static/js/main.9d724ee1.js.map"
   },
   "entrypoints": [
     "static/css/main.4968b0f2.css",
-    "static/js/main.cb333087.js"
+    "static/js/main.9d724ee1.js"
   ]
 }
