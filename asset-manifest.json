@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Tourist-Website/static/css/main.4968b0f2.css",
-    "main.js": "/Tourist-Website/static/js/main.9d724ee1.js",
-    "static/media/production ID_4120588.mp4": "/Tourist-Website/static/media/production ID_4120588.91aa6a52fd35bff0a5a9.mp4",
-    "static/media/mt-fuji-g9abf672d3_1280.jpg": "/Tourist-Website/static/media/mt-fuji-g9abf672d3_1280.f5327e1472c18195b4d7.jpg",
-    "index.html": "/Tourist-Website/index.html",
-    "main.4968b0f2.css.map": "/Tourist-Website/static/css/main.4968b0f2.css.map",
-    "main.9d724ee1.js.map": "/Tourist-Website/static/js/main.9d724ee1.js.map"
+    "main.css": "/Indian-Tourism/static/css/main.a0d1195f.css",
+    "main.js": "/Indian-Tourism/static/js/main.2798893c.js",
+    "static/media/production ID_4120588.mp4": "/Indian-Tourism/static/media/production ID_4120588.91aa6a52fd35bff0a5a9.mp4",
+    "static/media/mt-fuji-g9abf672d3_1280.jpg": "/Indian-Tourism/static/media/mt-fuji-g9abf672d3_1280.f5327e1472c18195b4d7.jpg",
+    "index.html": "/Indian-Tourism/index.html",
+    "main.a0d1195f.css.map": "/Indian-Tourism/static/css/main.a0d1195f.css.map",
+    "main.2798893c.js.map": "/Indian-Tourism/static/js/main.2798893c.js.map"
   },
   "entrypoints": [
-    "static/css/main.4968b0f2.css",
-    "static/js/main.9d724ee1.js"
+    "static/css/main.a0d1195f.css",
+    "static/js/main.2798893c.js"
   ]
 }
