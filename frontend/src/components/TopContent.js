@@ -1,7 +1,7 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 
-const TopContent = ({ vidLink, overlapHeading, overlapDescription }) => {
+const TopContent = ({ vidLink, overlapHeading, overlapDescription, poster }) => {
   return (
     <div>
       <div
@@ -17,7 +17,7 @@ const TopContent = ({ vidLink, overlapHeading, overlapDescription }) => {
           autoPlay
           loop
           muted
-          poster="https://assets.codepen.io/6093409/river.jpg"
+          poster={poster}
           className="w-full h-full bg-right object-cover opacity-70"
         >
           <source

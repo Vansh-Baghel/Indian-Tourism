@@ -13,12 +13,13 @@ const Andaman = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const overlapHeading = "Explore the state with us" 
   const overlapDescription = "Explore the state with us" 
+  const poster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXYh1jyZ7jLn0BfddeMoWRvVwqgS2zO9fjw&usqp=CAU" 
 
   useEffect(() => window.scrollTo(0, 0), []);
 
   return (
     <div style={{ marginTop: "10vh" }}>
-      <TopContent vidLink={prod} overlapHeading={overlapHeading} overlapDescription={overlapDescription}/>
+      <TopContent vidLink={prod} overlapHeading={overlapHeading} overlapDescription={overlapDescription} poster={poster}/>
       <AboutSection tour={tour} isMobile={isMobile} index="0" />
       <ProductCarousel tour={tour} isMobile={isMobile} index="0" />
       <TouristPlaces tour={tour} isMobile={isMobile} index="0" />
