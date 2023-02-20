@@ -3,10 +3,6 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 const router = express.Router();
 const tourController = require(`../controller/tourController`);
-const authController = require(`../controller/authController`);
-const reviewRouter = require('./reviewRouter');
-
-router.use('/:tourId/reviews', reviewRouter);
 
 router.route('/monthly-plan/:year').get(tourController.getMonthlyPlan);
 
@@ -24,8 +20,6 @@ router
   .get(jsonParser, tourController.getTour)
   .delete(
     jsonParser,
-    authController.protect,
-    authController.restrictTo('admin', 'lead-guide'),
     tourController.deleteTour
   );
 

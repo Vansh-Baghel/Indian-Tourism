@@ -2,6 +2,7 @@ import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import GitHubIcon from '@mui/icons-material/GitHub';
 import "./Footer.scss"
 
 const Footer = () => {
@@ -15,13 +16,16 @@ const Footer = () => {
             <div className="footer-col">
               <h4>Follow Me</h4>
               <div className="social-links">
-                <a href="#" className="facebook">
+                <a href="https://www.linkedin.com/in/vansh-baghel-24ab42232/" className="facebook">
                   <LinkedInIcon />
                 </a>
-                <a href="#" className="facebook">
+                <a href="https://twitter.com/VanshBaghel07" className="facebook">
                   <TwitterIcon />
                 </a>
-                <a href="#" className="facebook">
+                <a href="https://github.com/Vansh-Baghel" className="github">
+                  <GitHubIcon />
+                </a>
+                <a href="mailto:vanshbaghel912@gmail.com" className="facebook">
                   <EmailIcon />
                 </a>
               </div>

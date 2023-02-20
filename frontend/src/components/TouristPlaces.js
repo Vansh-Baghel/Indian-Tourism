@@ -15,11 +15,12 @@ import { Keyboard, EffectFade, Navigation, Pagination } from "swiper";
 const TouristPlaces = ({ tour, index, isMobile }) => {
   return (
     <>
-      <div style={{ margin: "1.5rem", marginTop: "8rem", color: "black" }}>
+      <div>
         <div style={{ padding: "0 3rem" }}>
           <h2
             style={{
-              fontSize: "2.5rem",
+              fontSize: isMobile ? "1.5rem" : "2.5rem",
+              padding: isMobile ? "1rem 0 0 0 " : "1rem",
               textAlign: "start",
               fontFamily: "Kanit",
               margin: "1rem",

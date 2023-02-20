@@ -31,7 +31,6 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               textAlign: "start",
               fontFamily: "Kanit",
               margin: "1rem",
-              padding: "1rem",
             }}
           >
             Products To Buy
@@ -85,11 +84,12 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               onClick={() => {
                 setData(tour[index].products);
               }}
+              style={{ width: isMobile ? "100%" : "50%" }}
             >
               <img
                 src={data.image}
                 alt={data.name}
-                style={{ height: isMobile && "50vh" }}
+                style={{ height: isMobile ? "50vh" : "60vh" }}
               />
               <motion.div
                 className="text-black text-2xl font-bold"
@@ -102,7 +102,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               </motion.div>
               <motion.div
                 className="text-black text-start"
-                style={{ padding: isMobile && "1.5rem" }}
+                style={{ padding: isMobile && "0 1.5rem 1.5rem 1.5rem" }}
                 initial={{ translateX: -20, opacity: 0 }}
                 animate={{ translateX: 0, opacity: 1 }}
                 transition={{ duration: 1.3, ease: easeInOut }}

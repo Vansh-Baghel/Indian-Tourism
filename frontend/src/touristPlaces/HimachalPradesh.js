@@ -1,6 +1,8 @@
-import ProductCarousel from "../components/TouristPlaces";
-import React from "react";
 
+import React from "react";
+import TouristPlaces from "../components/TouristPlaces";
+import Footer from "../components/Footer";
+import ProductCarousel from "../components/ProductCarousel";
 import { useSelector } from "react-redux";
 import { useMediaQuery } from "react-responsive";
 import AboutSection from "../components/AboutSection";
@@ -11,8 +13,10 @@ const HimachalPradesh = () => {
 
   return (
     <div style={{ marginTop: "10vh" }}>
-      <AboutSection tour={tour} isMobile={isMobile} index="3" />
-      <ProductCarousel isMobile={isMobile} tour={tour} index="3"/>
+      <AboutSection tour={tour} isMobile={isMobile} index="3" />{" "}
+      <ProductCarousel tour={tour} isMobile={isMobile} index="3" />
+      <TouristPlaces tour={tour} isMobile={isMobile} index="3" />
+      <Footer />
     </div>
   );
 };
