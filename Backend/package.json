@@ -2,7 +2,7 @@
   "scripts": {
     "start": "node server.js",
     "debug": "ndb server.js",
-    "dev" : "npm start"
+    "dev": "npm start"
   },
   "dependencies": {
     "@types/node": "^18.11.17",
