@@ -37,15 +37,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/Tourist-Website" element={<DiscoverPage datas={datas}  />} />
-          <Route path="Tourist-Website/login" element={<LoginPage />} />
-          <Route path="Tourist-Website/register" element={<RegisterPage />} />
-          <Route path="Tourist-Website/forget-password" element={<ForgetPasswordPage />} />
-          <Route path="Tourist-Website/kerala" element={<Kerela />} />
-          <Route path="Tourist-Website/andaman-nicobar" element={<Andaman />} />
-          <Route path="Tourist-Website/rajasthan" element={<Rajasthan />} />
-          <Route path="Tourist-Website/punjab" element={<Punjab />} />
-          <Route path="Tourist-Website/himachal-pradesh" element={<HimachalPradesh />} />
+          <Route path="/Indian-Tourism" element={<DiscoverPage datas={datas}  />} />
+          <Route path="Indian-Tourism/login" element={<LoginPage />} />
+          <Route path="Indian-Tourism/register" element={<RegisterPage />} />
+          <Route path="Indian-Tourism/forget-password" element={<ForgetPasswordPage />} />
+          <Route path="Indian-Tourism/kerala" element={<Kerela />} />
+          <Route path="Indian-Tourism/andaman-nicobar" element={<Andaman />} />
+          <Route path="Indian-Tourism/rajasthan" element={<Rajasthan />} />
+          <Route path="Indian-Tourism/punjab" element={<Punjab />} />
+          <Route path="Indian-Tourism/himachal-pradesh" element={<HimachalPradesh />} />
         </Routes>
       </BrowserRouter>
     </div>

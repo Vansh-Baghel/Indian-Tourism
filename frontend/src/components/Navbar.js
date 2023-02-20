@@ -96,7 +96,7 @@ const Navbar = function DrawerAppBar(props) {
   const [navItems] = React.useState([
     {
       name: "Home",
-      to: "/Tourist-Website",
+      to: "/Indian-Tourism",
     },
     {
       name: "About",
