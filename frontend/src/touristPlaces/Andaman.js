@@ -13,7 +13,7 @@ const Andaman = () => {
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const overlapHeading = "Explore the state with us" 
   const overlapDescription = "Explore the state with us" 
-  const poster = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhXYh1jyZ7jLn0BfddeMoWRvVwqgS2zO9fjw&usqp=CAU" 
+  const poster = "https://www.differenttruths.com/wp-content/uploads/2021/08/best-time-to-visit-Andaman-and-nicobar-islands-Feature-1080x720-1.jpg" 
 
   useEffect(() => window.scrollTo(0, 0), []);
 
