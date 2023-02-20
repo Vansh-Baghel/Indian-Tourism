@@ -7,9 +7,9 @@ dotenv.config({ path: './config.env' });
 mongoose.set('strictQuery', true);
 const DB = process.env.DATABASE.replace('<password>', process.env.DATABASE_PASSWORD);
 
-app.use(express.static(path.join(__dirname, '../Frontend/public')));
+app.use(express.static(path.join(__dirname, '../Frontend/build')));
 app.get('*', function (req, res) {
-  res.sendFile(path.join(__dirname, '../Frontend/public/index.html'));
+  res.sendFile(path.join(__dirname, '../Frontend/build/index.html'));
 });
 
 mongoose.connect(DB, {
