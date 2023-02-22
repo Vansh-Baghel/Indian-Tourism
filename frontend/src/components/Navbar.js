@@ -106,7 +106,7 @@ const Navbar = function DrawerAppBar(props) {
 
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
-      <Typography variant="h4" sx={{ my: 2 }}>
+      <Typography variant="h4">
         <img src={logo} alt="logo" />
       </Typography>
       <Divider />
@@ -138,9 +138,7 @@ const Navbar = function DrawerAppBar(props) {
           duration={300}
           className="cursor-pointer hover:text-stone-700 transition "
         >
-          <button
-            className="bg-white px-3 py-2 rounded-xl hover:bg-black hover:text-white ease-in duration-200"
-          >
+          <button className="bg-white px-3 py-2 rounded-xl hover:bg-black hover:text-white ease-in duration-200">
             <span className="p-4">Login</span>
           </button>
         </Link>
@@ -155,39 +153,26 @@ const Navbar = function DrawerAppBar(props) {
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
         <HideOnScroll {...props}>
-          <nav className="fixed top-0 left-0 bg-transparent backdrop-blur-sm z-10">
+          <nav className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-sm z-10">
             <Toolbar className="p-4 text-stone-900 flex justify-between items-center font-bold">
               <IconButton
                 color="inherit"
                 aria-label="open drawer"
                 edge="start"
                 onClick={handleDrawerToggle}
-                sx={{ mr: 2, display: { sm: "none" } }}
+                sx={{ display: { sm: "none" } }}
               >
                 <MenuIcon />
               </IconButton>
-              <Typography
-                variant="h6"
-                style={{
-                  flexGrow: 1,
-                  display: { xs: "none", sm: "block" },
-                  textAlign: "left",
-                  fontSize: "1.5rem",
-                }}
+              <div
+                className="text-2xl inline-block text-center"
+                style={{ width: "100%" }}
               >
-                <Link to="/" className="cursor-pointer">
+                <Link to="/" className="cursor-pointer flex justify-center align-center">
                   {/* <span style={{position : 'relative' , left: '10px' }}> */}
-                  <h1 className="text-2xl inline-block float-left">
-                    <img
-                      src={logo}
-                      alt="logo"
-                      className="w-16 h-16 rounded-xl"
-                    />
-                  </h1>
+                  <img src={logo} alt="logo" className="w-16 h-16 text-center rounded-xl" />
                 </Link>
-                {/* </span> */}
-              </Typography>
-
+              </div>
               <div className="text-lg flex gap-8 text-md float-right mobile:hidden">
                 {navItems.map((item) => {
                   return (

@@ -46,7 +46,6 @@ const TopContent = ({ vidLink, overlapHeading, overlapDescription, poster }) => 
           </Typography>
           <div
             className="font-roboto text-neutral-300"
-            style={{ width: "calc(((((1366px - 512px)/12) * 6) + 192px) * 1)" }}
           >
             {overlapDescription}
           </div>
