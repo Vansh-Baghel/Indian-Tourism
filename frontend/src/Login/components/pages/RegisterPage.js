@@ -111,7 +111,7 @@ const RegisterPage = () => {
           .
         </p>
         <p>
-          <button id="sub_btn" type="submit">
+          <button id="sub_btn">
             Register
           </button>
         </p>

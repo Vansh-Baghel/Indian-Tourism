@@ -13,7 +13,7 @@ const LoginPage = () => {
     setShowPassword(!showPassword);
   };
   return (
-    <div className="text-center m-5-auto">
+    <div style={{margin: '7rem auto' }}>
       <h1 className="text-3xl">Sign in to us</h1>
       <form action="/home">
         <p>
@@ -65,7 +65,7 @@ const LoginPage = () => {
           </div>
         </p>
         <p>
-          <button id="sub_btn" type="submit" className="mt-3">
+          <button id="sub_btn">
             Login
           </button>
         </p>

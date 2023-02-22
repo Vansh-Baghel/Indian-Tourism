@@ -1,7 +1,10 @@
-import { Box, Grid, Typography } from "@mui/material";
+import { Grid, Typography } from "@mui/material";
+import { useMediaQuery } from "react-responsive";
 import React from "react";
 
 const TopContent = ({ vidLink, overlapHeading, overlapDescription, poster }) => {
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
+
   return (
     <div>
       <div
@@ -37,6 +40,7 @@ const TopContent = ({ vidLink, overlapHeading, overlapDescription, poster }) => 
           <Typography
             variant="h2"
             className="font-bold font-roboto text-neutral-300"
+            style={{fontSize: isMobile ? "2.5rem" : ""}}
           >
             {overlapHeading}
           </Typography>

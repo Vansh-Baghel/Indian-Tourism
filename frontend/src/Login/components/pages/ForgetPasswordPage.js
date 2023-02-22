@@ -13,7 +13,7 @@ const ForgetPasswordPage = () => {
           <input className="input" type="email" name="email" required />
         </p>
         <p>
-          <button id="sub_btn" type="submit" className="mt-4">
+          <button id="sub_btn" className="mt-4">
             Send password reset email
           </button>
         </p>

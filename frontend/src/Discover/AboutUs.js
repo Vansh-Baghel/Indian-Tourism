@@ -17,7 +17,7 @@ const AboutUs = () => {
 
   return (
     <>
-      <div className="font-extrabold text-black m-12 mobile:ml-0 mobile:mr-0 mobile:text-5xl text-7xl">
+      <div className="font-extrabold text-black m-12 mobile:ml-0 mobile:mr-0 mobile:text-5xl text-7xl" >
         About India
       </div>
       <div className="m-6 text-black mobile:m-0">

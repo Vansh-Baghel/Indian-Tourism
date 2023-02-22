@@ -6,9 +6,6 @@ import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import IconButton from "@mui/material/IconButton";
 import List from "@mui/material/List";
-import ListItem from "@mui/material/ListItem";
-import ListItemButton from "@mui/material/ListItemButton";
-import ListItemText from "@mui/material/ListItemText";
 import MenuIcon from "@mui/icons-material/Menu";
 import KeyboardArrowUpIcon from "@mui/icons-material/KeyboardArrowUp";
 import Toolbar from "@mui/material/Toolbar";
@@ -16,6 +13,7 @@ import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Fab, Fade, Slide, useScrollTrigger } from "@mui/material";
+import logo from "../assests/logo.ico";
 const drawerWidth = 240;
 
 function HideOnScroll(props) {
@@ -98,10 +96,6 @@ const Navbar = function DrawerAppBar(props) {
       name: "Home",
       to: "/",
     },
-    {
-      name: "About",
-      to: "about",
-    },
   ]);
   const { window } = props;
   const [mobileOpen, setMobileOpen] = React.useState(false);
@@ -113,17 +107,43 @@ const Navbar = function DrawerAppBar(props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h4" sx={{ my: 2 }}>
-        Logo
+        <img src={logo} alt="logo" />
       </Typography>
       <Divider />
       <List>
         {navItems.map((item) => (
-          <ListItem key={item.name} disablePadding>
-            <ListItemButton sx={{ textAlign: "center" }}>
-              <ListItemText primary={item.name} />
-            </ListItemButton>
-          </ListItem>
+          <Link
+            to={item.to}
+            smooth={true}
+            duration={300}
+            key={item.name}
+            className="cursor-pointer hover:text-gray-700 transition "
+          >
+            <button
+              key={item.name}
+              className="p-2"
+              initial={{ translateX: -50, opacity: 0 }}
+              animate={{ translateX: 0, opacity: 1 }}
+              transition={{ duration: 1 }}
+            >
+              <span>{item.name}</span>
+            </button>
+          </Link>
         ))}
+      </List>
+      <List>
+        <Link
+          to="/login"
+          smooth={true}
+          duration={300}
+          className="cursor-pointer hover:text-stone-700 transition "
+        >
+          <button
+            className="bg-white px-3 py-2 rounded-xl hover:bg-black hover:text-white ease-in duration-200"
+          >
+            <span className="p-4">Login</span>
+          </button>
+        </Link>
       </List>
     </Box>
   );
@@ -135,7 +155,7 @@ const Navbar = function DrawerAppBar(props) {
       <Box sx={{ display: "flex" }}>
         <CssBaseline />
         <HideOnScroll {...props}>
-          <nav className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-sm z-10">
+          <nav className="fixed top-0 left-0 bg-transparent backdrop-blur-sm z-10">
             <Toolbar className="p-4 text-stone-900 flex justify-between items-center font-bold">
               <IconButton
                 color="inherit"
@@ -157,7 +177,13 @@ const Navbar = function DrawerAppBar(props) {
               >
                 <Link to="/" className="cursor-pointer">
                   {/* <span style={{position : 'relative' , left: '10px' }}> */}
-                  <h1 className="text-2xl inline-block float-left">LOGO</h1>
+                  <h1 className="text-2xl inline-block float-left">
+                    <img
+                      src={logo}
+                      alt="logo"
+                      className="w-16 h-16 rounded-xl"
+                    />
+                  </h1>
                 </Link>
                 {/* </span> */}
               </Typography>
