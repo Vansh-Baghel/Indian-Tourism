@@ -13,6 +13,7 @@ import Typography from "@mui/material/Typography";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Fab, Fade, Slide, useScrollTrigger } from "@mui/material";
+import { useMediaQuery } from "react-responsive";
 import logo from "../assests/logo.ico";
 const drawerWidth = 240;
 
@@ -91,6 +92,8 @@ ScrollTop.propTypes = {
 };
 
 const Navbar = function DrawerAppBar(props) {
+  const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
+
   const [navItems] = React.useState([
     {
       name: "Home",
@@ -168,9 +171,20 @@ const Navbar = function DrawerAppBar(props) {
                 className="text-2xl inline-block text-center"
                 style={{ width: "100%" }}
               >
-                <Link to="/" className="cursor-pointer flex justify-center align-center">
+                <Link
+                  to="/"
+                  className="cursor-pointer"
+                  style={{
+                    display: isMobile ? "flex" : "",
+                    justifyContent: isMobile ? "right" : "",
+                  }}
+                >
                   {/* <span style={{position : 'relative' , left: '10px' }}> */}
-                  <img src={logo} alt="logo" className="w-16 h-16 text-center rounded-xl" />
+                  <img
+                    src={logo}
+                    alt="logo"
+                    className="w-16 h-16 text-center rounded-xl"
+                  />
                 </Link>
               </div>
               <div className="text-lg flex gap-8 text-md float-right mobile:hidden">
