@@ -8,6 +8,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 import "./TouristPlaces.scss";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 // import required modules
 import { Keyboard, EffectFade, Navigation, Pagination } from "swiper";
@@ -46,7 +47,7 @@ const TouristPlaces = ({ tour, index, isMobile }) => {
         className="mySwiper"
       >
         {tour[index] !== undefined &&
-          tour[index].tourist.map((product, index) => (
+          tour[index].tourist.map((place, index) => (
             <SwiperSlide
               key={index}
               style={{
@@ -55,12 +56,22 @@ const TouristPlaces = ({ tour, index, isMobile }) => {
                 alignContent: "center",
               }}
             >
-              <img src={product.images} alt={product.images} />
-              <div className="prod-blackBlur">
-                <div className="prod-title">{product.name}</div>
-                <div className="prod-name">{product.name}</div>
-                <div className="prod-description">
-                  {isMobile ? product.info.slice(0, 250) + "..." : product.info}
+              <img src={place.images} alt={place.images} style={{objectFit: 'cover'}}/>
+              <div className="place-blackBlur">
+                <div className="flex justify-end align-bottom">
+                  <div className="place-title">{place.name}</div>
+                  <a href={place.location} style={{
+                          fontSize: isMobile ? "0" : "4rem"}}>
+                      <LocationOnIcon
+                        style={{
+                          width: isMobile ? "4rem" : "5rem",
+                          height:  isMobile ? "3rem" : "5rem",
+                        }}
+                      />
+                  </a>
+                </div>
+                <div className="place-description">
+                  {place.info.slice(0, 250) + "..."}
                 </div>
               </div>
             </SwiperSlide>

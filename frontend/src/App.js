@@ -37,15 +37,15 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/Indian-Tourism" element={<DiscoverPage datas={datas}  />} />
-          <Route path="Indian-Tourism/login" element={<LoginPage />} />
-          <Route path="Indian-Tourism/register" element={<RegisterPage />} />
-          <Route path="Indian-Tourism/forget-password" element={<ForgetPasswordPage />} />
-          <Route path="Indian-Tourism/kerala" element={<Kerela />} />
-          <Route path="Indian-Tourism/andaman-nicobar" element={<Andaman />} />
-          <Route path="Indian-Tourism/rajasthan" element={<Rajasthan />} />
-          <Route path="Indian-Tourism/punjab" element={<Punjab />} />
-          <Route path="Indian-Tourism/himachal-pradesh" element={<HimachalPradesh />} />
+          <Route path="/" element={<DiscoverPage datas={datas}  />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/forget-password" element={<ForgetPasswordPage />} />
+          <Route path="/kerala" element={<Kerela />} />
+          <Route path="/andaman-nicobar" element={<Andaman />} />
+          <Route path="/rajasthan" element={<Rajasthan />} />
+          <Route path="/punjab" element={<Punjab />} />
+          <Route path="/himachal-pradesh" element={<HimachalPradesh />} />
         </Routes>
       </BrowserRouter>
     </div>

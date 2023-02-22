@@ -89,7 +89,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               <img
                 src={data.image}
                 alt={data.name}
-                style={{ height: isMobile ? "50vh" : "60vh" }}
+                style={{ height: isMobile ? "100%"  : "100%"  }}
               />
               <motion.div
                 className="text-black text-2xl font-bold"

@@ -25,6 +25,7 @@ const ButtonWithEffect = ({ buttonText, textColor, borderColor, id }) => {
             borderRadius: "5px",
             padding: ".5rem 2rem",
           }}
+          id="ButtonBox"
         >
           {buttonText}
         </Box>

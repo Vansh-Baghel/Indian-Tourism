@@ -10,7 +10,7 @@ const TopContent = ({ vidLink, overlapHeading, overlapDescription, poster }) => 
         style={{
           backgroundColor: "black",
           width: "calc(99vw - 2px)",
-          height: "70vh",
+          height: "80vh",
         }}
       >
         <video

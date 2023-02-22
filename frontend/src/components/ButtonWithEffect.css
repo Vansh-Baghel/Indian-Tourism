@@ -14,4 +14,7 @@
   background-position: 200px;
 }
 
-/* #buttonBackgroundEffect:hover */
+a {
+  /* From ButtonWithEffect.css */
+  -webkit-tap-highlight-color: transparent !important;
+}

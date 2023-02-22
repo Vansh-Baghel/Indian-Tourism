@@ -6,20 +6,20 @@ import TouristPlaces from "../components/TouristPlaces";
 import Footer from "../components/Footer";
 import ProductCarousel from "../components/ProductCarousel";
 import TopContent from "../components/TopContent";
-import prod from "../assests/production ID_4120588.mp4"
+import vid from "../assests/andaman.mp4";
+import poster from "../assests/poster/Andaman.jpeg";
 
 const Andaman = () => {
   const tour = useSelector((state) => state.tour.tourInfo);
   const isMobile = useMediaQuery({ query: "(max-width: 650px)" });
   const overlapHeading = "Explore the state with us" 
-  const overlapDescription = "Explore the state with us" 
-  const poster = "https://www.differenttruths.com/wp-content/uploads/2021/08/best-time-to-visit-Andaman-and-nicobar-islands-Feature-1080x720-1.jpg" 
+  const overlapDescription = "Collect the moments" 
 
   useEffect(() => window.scrollTo(0, 0), []);
 
   return (
-    <div style={{ marginTop: "10vh" }}>
-      <TopContent vidLink={prod} overlapHeading={overlapHeading} overlapDescription={overlapDescription} poster={poster}/>
+    <div >
+      <TopContent vidLink={vid} overlapHeading={overlapHeading} overlapDescription={overlapDescription} poster={poster}/>
       <AboutSection tour={tour} isMobile={isMobile} index="2" />
       <ProductCarousel tour={tour} isMobile={isMobile} index="2" />
       <TouristPlaces tour={tour} isMobile={isMobile} index="2" />

@@ -20,12 +20,11 @@
   background: white;
 }
 
-.prod-blackBlur {
+.place-blackBlur {
   position: absolute;
-  padding: 5rem;
+  padding: 2rem;
   bottom: 0px;
   margin-left: 3rem;
-  height: 70%;
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -35,7 +34,7 @@
   opacity: 1;
   transition: opacity 0.3s;
 
-  .prod-title {
+  .place-title {
     font-weight: 900;
     font-size: 4rem;
     margin-bottom: 0.4rem;
@@ -47,7 +46,7 @@
     }
   }
 
-  .prod-name {
+  .place-name {
     font-size: 2rem;
     margin-bottom: 1rem;
 
@@ -56,7 +55,7 @@
     }
   }
 
-  .prod-description {
+  .place-description {
     font-style: italic;
     font-size: 1rem;
     margin-bottom: 0.25rem;
