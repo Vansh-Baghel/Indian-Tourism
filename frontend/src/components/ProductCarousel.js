@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 import { easeInOut, motion } from "framer-motion";
@@ -18,7 +18,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
 
   useEffect(() => {
     tour.length === 5 && setData(tour[index].products);
-  }, [tour]);
+  }, [index, tour]);
 
   return (
     <>

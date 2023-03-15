@@ -25,7 +25,6 @@ const TouristPlaces = ({ tour, index, isMobile }) => {
               textAlign: "start",
               fontFamily: "Kanit",
               margin: "1rem",
-              padding: "1rem",
             }}
           >
             Places To Visit
@@ -56,18 +55,26 @@ const TouristPlaces = ({ tour, index, isMobile }) => {
                 alignContent: "center",
               }}
             >
-              <img src={place.images} alt={place.images} style={{objectFit: 'cover'}}/>
+              <img
+                src={place.images}
+                alt={place.images}
+                style={{ objectFit: "cover" }}
+              />
               <div className="place-blackBlur">
                 <div className="flex justify-end align-bottom">
                   <div className="place-title">{place.name}</div>
-                  <a href={place.location} style={{
-                          fontSize: isMobile ? "0" : "4rem"}}>
-                      <LocationOnIcon
-                        style={{
-                          width: isMobile ? "4rem" : "5rem",
-                          height:  isMobile ? "3rem" : "5rem",
-                        }}
-                      />
+                  <a
+                    href={place.location}
+                    style={{
+                      fontSize: isMobile ? "0" : "4rem",
+                    }}
+                  >
+                    <LocationOnIcon
+                      style={{
+                        width: isMobile ? "4rem" : "5rem",
+                        height: isMobile ? "3rem" : "5rem",
+                      }}
+                    />
                   </a>
                 </div>
                 <div className="place-description">
