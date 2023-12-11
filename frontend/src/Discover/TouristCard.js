@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ButtonWithEffect from "../components/ButtonWithEffect";
 import "./TouristCard.css";
 import { Blocks } from "react-loader-spinner";
+import axios from "axios";
 
-const TouristCard = ({ datas }) => {
-  console.log(datas);
+const TouristCard = () => {
+  const [datas, setDatas] = useState([{}]);
+  
+  const ENDPOINT_BACKEND = "http://localhost:5000";
+  useEffect(() => {
+    axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`).then((resp) => {
+      setDatas(resp.data.data);
+    });
+  }, []);
+
   return (
     <>
       {datas.length < 5 ? (

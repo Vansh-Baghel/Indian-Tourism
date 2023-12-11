@@ -4,12 +4,12 @@ import AboutUs from "./AboutUs";
 import Home from "./Home";
 import TouristCard from "./TouristCard";
 
-const DiscoverPage = ({ datas }) => {
+const DiscoverPage = () => {
   return (
     <div>
       <Home />
       <AboutUs />
-      <TouristCard datas={datas} />
+      <TouristCard />
       <Footer />
     </div>
   );

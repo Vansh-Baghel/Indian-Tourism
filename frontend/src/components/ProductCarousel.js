@@ -12,13 +12,27 @@ import "./ProductCarousel.scss";
 
 // import required modules
 import { EffectCoverflow, Pagination } from "swiper";
+import axios from "axios";
 
-const ProductCarousel = ({ tour, index, isMobile }) => {
+const ProductCarousel = ({ index, isMobile }) => {
   const [data, setData] = useState(false);
 
+  const ENDPOINT_BACKEND = "http://localhost:5000";
+
   useEffect(() => {
-    setData(tour[index].products);
-  }, [index, tour]);
+    const fetchData = async () => {
+      try {
+        await new Promise((resolve) => setTimeout(resolve, 1000));
+
+        const response = await axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`);
+        setData(response.data.data[index].products);
+      } catch (error) {
+        console.error("Error fetching data:", error.message);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   return (
     <>
@@ -53,7 +67,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
         modules={[EffectCoverflow, Pagination]}
         className='tourSwiper'
       >
-        {data.length > 1 ? (
+        {data !== undefined && data.length > 1 ? (
           data.map((product, index) => (
             <SwiperSlide
               className='tourSwiperSlide'
@@ -82,7 +96,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
             <SwiperSlide
               className='tourSwiperSlide'
               onClick={() => {
-                setData(tour[index].products);
+                setData(data);
               }}
               style={{ width: isMobile ? "100%" : "50%" }}
             >
@@ -111,7 +125,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               </motion.div>
             </SwiperSlide>
           </>
-        )}
+        )}{" "}
       </Swiper>
     </>
   );

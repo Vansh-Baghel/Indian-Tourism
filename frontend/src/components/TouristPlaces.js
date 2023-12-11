@@ -14,6 +14,7 @@ import LocationOnIcon from "@mui/icons-material/LocationOn";
 import { Keyboard, EffectFade, Navigation, Pagination } from "swiper";
 
 const TouristPlaces = ({ tour, index, isMobile }) => {
+  
   return (
     <>
       <div>

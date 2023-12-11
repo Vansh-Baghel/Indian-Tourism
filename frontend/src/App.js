@@ -6,36 +6,19 @@ import LoginPage from "./Login/components/pages/LoginPage";
 import RegisterPage from "./Login/components/pages/RegisterPage";
 import ForgetPasswordPage from "./Login/components/pages/ForgetPasswordPage";
 import React, { useEffect, useState } from "react";
-import axios from "axios";
 import Kerela from "./touristPlaces/Kerela";
 import Andaman from "./touristPlaces/Andaman";
 import Rajasthan from "./touristPlaces/Rajasthan";
 import HimachalPradesh from "./touristPlaces/HimachalPradesh";
 import Punjab from "./touristPlaces/Punjab";
-import { useDispatch } from "react-redux";
-import { tourInfo } from "./store/tour-slice";
 
 function App() {
-  const dispatch = useDispatch();
-  const [datas, setDatas] = useState([{}]);
-
-  const ENDPOINT_BACKEND = "https://indian-tourism.onrender.com";
-  useEffect(() => {
-    axios.get(`${ENDPOINT_BACKEND}/api/v1/tours`).then((resp) => {
-      setDatas(resp.data.data);
-    });
-  }, []);
-
-  useEffect(() => {
-    dispatch(tourInfo(datas));
-  }, [datas, dispatch]);
-
   return (
     <div className='App'>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path='/' element={<DiscoverPage datas={datas} />} />
+          <Route path='/' element={<DiscoverPage />} />
           <Route path='/login' element={<LoginPage />} />
           <Route path='/register' element={<RegisterPage />} />
           <Route path='/forget-password' element={<ForgetPasswordPage />} />

@@ -1,6 +1,7 @@
 import React from "react";
 
 const AboutSection = ({ tour, isMobile, index }) => {
+
   const aboutTour = tour[index] !== undefined && tour[index].about;
   const tourStateName = tour[index] !== undefined && tour[index].name;
   const visitTime = tour[index] !== undefined && tour[index].climate;
