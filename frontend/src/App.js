@@ -27,25 +27,23 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (datas.length === 5) {
-      dispatch(tourInfo(datas));
-    }
+    dispatch(tourInfo(datas));
   }, [datas, dispatch]);
 
   return (
-    <div className="App">
+    <div className='App'>
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<DiscoverPage datas={datas}  />} />
-          <Route path="/login" element={<LoginPage />} />
-          <Route path="/register" element={<RegisterPage />} />
-          <Route path="/forget-password" element={<ForgetPasswordPage />} />
-          <Route path="/kerala" element={<Kerela />} />
-          <Route path="/andaman-nicobar" element={<Andaman />} />
-          <Route path="/rajasthan" element={<Rajasthan />} />
-          <Route path="/punjab" element={<Punjab />} />
-          <Route path="/himachal-pradesh" element={<HimachalPradesh />} />
+          <Route path='/' element={<DiscoverPage datas={datas} />} />
+          <Route path='/login' element={<LoginPage />} />
+          <Route path='/register' element={<RegisterPage />} />
+          <Route path='/forget-password' element={<ForgetPasswordPage />} />
+          <Route path='/kerala' element={<Kerela />} />
+          <Route path='/andaman-nicobar' element={<Andaman />} />
+          <Route path='/rajasthan' element={<Rajasthan />} />
+          <Route path='/punjab' element={<Punjab />} />
+          <Route path='/himachal-pradesh' element={<HimachalPradesh />} />
         </Routes>
       </BrowserRouter>
     </div>

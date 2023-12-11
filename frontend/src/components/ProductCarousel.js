@@ -17,7 +17,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
   const [data, setData] = useState(false);
 
   useEffect(() => {
-    tour.length === 5 && setData(tour[index].products);
+    setData(tour[index].products);
   }, [index, tour]);
 
   return (
@@ -51,12 +51,12 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
         }}
         pagination={true}
         modules={[EffectCoverflow, Pagination]}
-        className="tourSwiper"
+        className='tourSwiper'
       >
         {data.length > 1 ? (
           data.map((product, index) => (
             <SwiperSlide
-              className="tourSwiperSlide"
+              className='tourSwiperSlide'
               style={{
                 width: isMobile ? "280px" : "600px",
                 height: isMobile ? "280px" : "600px",
@@ -80,7 +80,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
         ) : (
           <>
             <SwiperSlide
-              className="tourSwiperSlide"
+              className='tourSwiperSlide'
               onClick={() => {
                 setData(tour[index].products);
               }}
@@ -89,10 +89,10 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
               <img
                 src={data.image}
                 alt={data.name}
-                style={{ height: isMobile ? "100%"  : "100%"  }}
+                style={{ height: isMobile ? "100%" : "100%" }}
               />
               <motion.div
-                className="text-black text-2xl font-bold"
+                className='text-black text-2xl font-bold'
                 style={{ padding: isMobile && "1rem" }}
                 initial={{ translateX: 20, opacity: 0 }}
                 animate={{ translateX: 0, opacity: 1 }}
@@ -101,7 +101,7 @@ const ProductCarousel = ({ tour, index, isMobile }) => {
                 {data.name}
               </motion.div>
               <motion.div
-                className="text-black text-start"
+                className='text-black text-start'
                 style={{ padding: isMobile && "0 1.5rem 1.5rem 1.5rem" }}
                 initial={{ translateX: -20, opacity: 0 }}
                 animate={{ translateX: 0, opacity: 1 }}
